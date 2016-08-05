@@ -1,0 +1,13 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Sidebar
+  levels: one
+  folders:
+
+  - title: ConfigurableTierPrices
+    output: web
+    folderitems:
+    - title: Overview
+      url: /ctp_index.html#overview
+      output: web

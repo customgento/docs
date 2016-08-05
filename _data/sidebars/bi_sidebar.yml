@@ -1,0 +1,19 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Sidebar
+  levels: one
+  folders:
+
+  - title: BankIntegration
+    output: web
+    folderitems:
+    - title: Overview
+      url: /bi_index.html#overview
+      output: web
+    - title: General Configuration
+      url: /bi_index.html#general-configuration
+      output: web
+    - title: The Upload Page
+      url: /bi_index.html#the-upload-page
+      output: web

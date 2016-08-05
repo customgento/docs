@@ -1,0 +1,19 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Sidebar
+  levels: one
+  folders:
+
+  - title: Extensions
+    output: web
+    folderitems:
+    - title: ConfigurableTierPrices
+      url: /cti_index.html
+      output: web
+    - title: BankIntegration
+      url: /bi_index.html
+      output: web
+    - title: OptionsTierPrices
+      url: /otp_index.html
+      output: web

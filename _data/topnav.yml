@@ -1,0 +1,20 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+- title: Topnav
+  items:
+    - title: Extension Store
+      external_url: http://customgento.com
+
+#Topnav dropdowns
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:
+    - title: Extensions
+      folderitems:
+        - title: ConfigurableTierPrices
+          url: /ctp_index.html
+        - title: BankIntegration
+          url: /bi_index.html
+        - title: OptionsTierPrices
+          url: /otp_index.html
