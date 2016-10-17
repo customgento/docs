@@ -24,13 +24,14 @@ The next option is just relevant for users who use the M2E Pro module for synchr
 
 ## Usage manual
 In the following sections, you will find explanations for the use of each of the pages of the module. In short, the functionality of the module is as follows:
-1.The user uploads a bank file to the module (see: The upload page).
-2.The bank data is parsed and processed by the module. This includes the extraction of an order identifier from the data. The data is made available from within Magento. Duplicate entries are filtered out automatically.
-3.The module performs the matching process to Magento orders (see: The bank/order coupling page):
-  1. Extract a Magento order identifier from one of the fields (fixed per bank) of the bank file.
-  2. If the order identifier and the order amount match, the coupling is set to Certain.
-  3. If either the order identifier or the order amount match, the coupling is made as a Guess.
-  4. Otherwise, the coupling has to be performed manually.
+
+1. The user uploads a bank file to the module (see: The upload page).
+2. The bank data is parsed and processed by the module. This includes the extraction of an order identifier from the data. The data is made available from within Magento. Duplicate entries are filtered out automatically.
+3. The module performs the matching process to Magento orders (see: The bank/order coupling page):
+        1. Extract a Magento order identifier from one of the fields (fixed per bank) of the bank file.
+        2. If the order identifier and the order amount match, the coupling is set to Certain.
+        3. If either the order identifier or the order amount match, the coupling is made as a Guess.
+        4. Otherwise, the coupling has to be performed manually.
 
 Furthermore, the module provides options to review bankdata (see: The bank payments tab and The review bankdata pages) and filter out entries automatically.
 
