@@ -17,9 +17,6 @@ entries:
       - title: The Upload Page
         url: /bi_index.html#the-upload-page
         output: web
-      - title: The bank/order coupling page
-        url: /bi_index.html#the-bank/order-coupling-page
-        output: web
       - title: The review bankdata pages
         url: /bi_index.html#the-bank-review-bankdata-pages
         output: web
