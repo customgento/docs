@@ -25,23 +25,27 @@ In the following sections, you will find explanations for the use of each of the
 1. The user uploads a bank file to the module (see: The upload page).
 2. The bank data is parsed and processed by the module. This includes the extraction of an order identifier from the data. The data is made available from within Magento. Duplicate entries are filtered out automatically.
 3. The module performs the matching process to Magento orders (see: The bank/order coupling page):
-  1. Extract a Magento order identifier from one of the fields (fixed per bank) of the bank file.
-  2. If the order identifier and the order amount match, the coupling is set to Certain.
-  3. If either the order identifier or the order amount match, the coupling is made as a Guess.
-  4. Otherwise, the coupling has to be performed manually.
+    1. Extract a Magento order identifier from one of the fields (fixed per bank) of the bank file.
+    2. If the order identifier and the order amount match, the coupling is set to Certain.
+    3. If either the order identifier or the order amount match, the coupling is made as a Guess.
+    4. Otherwise, the coupling has to be performed manually.
 
 Furthermore, the module provides options to review bankdata (see: The bank payments tab and The review bankdata pages) and filter out entries automatically.
 
 ### The upload page
+
 #### Accessing the upload page
 Navigate to Bank Integration → Upload bankdata.
+
 #### Using the upload page
 On the upload page, you will find the banks you selected in the Configuration.
 On this page, you can select a bank file to be uploaded and processed into Magento’s system (Choose File → Upload and process (xx)).
 
 ### The bank/order coupling page
+
 #### Accessing the bank/order coupling page
 Navigate to Bank Integration → Bank/order coupling.
+
 #### Using the bank/order coupling page
 On this page you will find an overview of unprocessed bankdata. If the overview contains rows marked as Uncoupled, you can try to couple them automatically using the Couple automatically button. After automatic coupling, the Coupling certainty of the bankdata can change in either Certain (both a matching order identifier and a matching paid amount) or Guess (either a matching order identifier or a matching paid amount). Rows which are marked as Guess can either be decoupled (Decouple) or confirmed (Confirm).
 Orders that remain Uncoupled can either be ignored (Ignore) or manually coupled.
@@ -49,8 +53,10 @@ For this you will find a list of orders with the order identifiers, customer nam
 Using the Submit coupled data button will confirm the coupling of all bankdata marked as Certain, including the change of order status.
 
 ### The review bankdata pages
+
 #### Accessing the review bankdata pages
 Navigate to Bank Integration → Review bankdata → All items / Processed items / Unprocessed items / Ignored items.
+
 ##### Using the review bankdata pages
 On the review bankdata pages, you can see the results of the imported bank files. You can either see all data (All items), those already coupled (Processed items), those still open to process (Unprocessed items), or the ignored data (Ignored items). On these pages, you can perform various tasks:
 
@@ -62,15 +68,19 @@ On the review bankdata pages, you can see the results of the imported bank files
 
 
 ### The bank payments tab
+
 #### Accessing the bank payments tab
 Navigate to Sales → Order and select an order. Select the Bank payments tab.
+
 #### Using the bank payments tab
 On the bank payments tab you will have an overview of all transactions made to a single order. This gives you a perorder overview of processed bankdata.
 
 
 ### The filter settings
+
 #### Accessing the filter settings
 Navigate to Bank Integration → Filter settings.
+
 #### Using the filter settings
 On the filter settings page you can add, remove, or edit filters. These filters allow you to automatically filter out entries from imported bankdata. The bankdata matching these filters will not be removed, but will be marked automatically as Neglected and can thus be reviewed and re-added under Ignored items.
 Using the Add new button or clicking on one of the existing filters allows you to add or modify a filter as follows:
