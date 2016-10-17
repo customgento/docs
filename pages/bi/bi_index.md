@@ -28,6 +28,7 @@ In the following sections, you will find explanations for the use of each of the
 1. The user uploads a bank file to the module (see: The upload page).
 2. The bank data is parsed and processed by the module. This includes the extraction of an order identifier from the data. The data is made available from within Magento. Duplicate entries are filtered out automatically.
 3. The module performs the matching process to Magento orders (see: The bank/order coupling page):
+
   1. Extract a Magento order identifier from one of the fields (fixed per bank) of the bank file.
   2. If the order identifier and the order amount match, the coupling is set to Certain.
   3. If either the order identifier or the order amount match, the coupling is made as a Guess.
@@ -62,6 +63,7 @@ Navigate to Bank Integration → Review bankdata → All items / Processed items
 
 Using the review bankdata pages
 On the review bankdata pages, you can see the results of the imported bank files. You can either see all data (All items), those already coupled (Processed items), those still open to process (Unprocessed items), or the ignored data (Ignored items). On these pages, you can perform various tasks:
+
 + Add manual payment allows you to manually add a new entry, without importing this from a bank file.
 + The action Export selected entries allow you to export the bankdata back to a comma separated values (CSV) file. This can be useful for your own bank administration.
 + The actions Delete selected entries will remove bank entries from the Magento data-
