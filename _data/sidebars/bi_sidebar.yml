@@ -11,25 +11,21 @@ entries:
     - title: General Configuration
       url: /bi_index.html#general-configuration
       output: web
-    - title: Usage manual
-      url: /bi_index.html#usage-manual
+    - title: The Upload Page
+      url: /bi_index.html#the-upload-page
       output: web
-      folderitems:
-      - title: The Upload Page
-        url: /bi_index.html#the-upload-page
-        output: web
-      - title: The bank/order coupling page
-        url: /bi_index.html#the-bank/order-coupling-page
-        output: web
-      - title: The review bankdata pages
-        url: /bi_index.html#the-bank-review-bankdata-pages
-        output: web
-      - title: The bank payments tab
-        url: /bi_index.html#the-bank-payments-tab
-        output: web
-      - title: The filter settings
-        url: /bi_index.html#the-filter-settings
-        output: web
-      - title: Frequently asked questions
-        url: /bi_index.html#frequently-asked-questions
-        output: web
+    - title: The bank/order coupling page
+      url: /bi_index.html#the-bank/order-coupling-page
+      output: web
+    - title: The review bankdata pages
+      url: /bi_index.html#the-bank-review-bankdata-pages
+      output: web
+    - title: The bank payments tab
+      url: /bi_index.html#the-bank-payments-tab
+      output: web
+    - title: The filter settings
+      url: /bi_index.html#the-filter-settings
+      output: web
+    - title: Frequently asked questions
+      url: /bi_index.html#frequently-asked-questions
+      output: web
