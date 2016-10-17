@@ -14,6 +14,7 @@ entries:
     - title: Usage manual
       url: /bi_index.html#usage-manual
       output: web
+      folderitems:
       - title: The Upload Page
         url: /bi_index.html#the-upload-page
         output: web
