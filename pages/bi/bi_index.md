@@ -22,10 +22,11 @@ In the following sections, you will find explanations for the use of each of the
 1. The user uploads a bank file to the module (see: The upload page).
 2. The bank data is parsed and processed by the module. This includes the extraction of an order identifier from the data. The data is made available from within Magento. Duplicate entries are filtered out automatically.
 3. The module performs the matching process to Magento orders (see: The bank/order coupling page):
-    1. Extract a Magento order identifier from one of the fields (fixed per bank) of the bank file.
-    2. If the order identifier and the order amount match, the coupling is set to Certain.
-    3. If either the order identifier or the order amount match, the coupling is made as a Guess.
-    4. Otherwise, the coupling has to be performed manually.
+    1. Extract a Magento order identifier or the IBAN (in case that the Itabs_Debit module is active) from one of the fields (fixed per bank) of the bank file.
+    2. Calculate the open order amount for each open Magento order in case that a part of the total sum has already been payed or a creditmemo has been created.
+    3. If the order identifier and the order amount match, the coupling is set to Certain. It is also set to Certain, if the IBAN and the amount match. If both tries faile, the module checks for the order amount and the name of the sender. If these match an existing order, the coupling is also set to Certain.
+    4. If only the amount, the identifier or the name match, the coupling is set to Guessed. All guessed bank items can be reviewed and set to Certain manually.
+    5. Otherwise, the coupling has to be performed manually.
 
 Furthermore, the module provides options to review bankdata (see: The bank payments tab and The review bankdata pages) and filter out entries automatically.
 All of the following pages and tabs are shown under the general tab Bank Integration in your Magento backend.
