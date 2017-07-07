@@ -25,7 +25,7 @@ In the following sections, you will find explanations for the use of each of the
     1. Extract a Magento order identifier or the IBAN (in case that the Itabs_Debit module is active) from one of the fields (fixed per bank) of the bank file.
     2. Calculate the open order amount for each open Magento order in case that a part of the total sum has already been payed or a creditmemo has been created.
     3. If the order identifier and the order amount match, the coupling is set to Certain. It is also set to Certain, if the IBAN and the amount match. If both tries faile, the module checks for the order amount and the name of the sender. If these match an existing order, the coupling is also set to Certain.
-    4. If only the amount, the identifier or the name match, the coupling is set to Guessed. All guessed bank items can be reviewed and set to Certain manually.
+    4. If only the amount, the identifier or the name match, the coupling is set to Guess. All guessed bank items can be reviewed and set to Certain manually.
     5. Otherwise, the coupling has to be performed manually.
 
 Furthermore, the module provides options to review bankdata (see: The bank payments tab and The review bankdata pages) and filter out entries automatically.
@@ -36,7 +36,7 @@ On the upload page, you will find the banks you selected in the Configuration.
 On this page, you can select a bank file to be uploaded and processed into Magento’s system (Choose File → Upload and process (xx)).
 
 ## The Bank/Order Coupling Page
-On this page you will find an overview of unprocessed bankdata. If the overview contains rows marked as Uncoupled, you can try to couple them automatically using the Couple automatically button. After automatic coupling, the Coupling certainty of the bankdata can change in either Certain (both a matching order identifier and a matching paid amount) or Guess (either a matching order identifier or a matching paid amount). Rows which are marked as Guess can either be decoupled (Decouple) or confirmed (Confirm).
+On this page you will find an overview of unprocessed bankdata. If the overview contains rows marked as Uncoupled, you can try to couple them automatically using the Couple automatically button. After automatic coupling, the Coupling certainty of the bankdata can change in either Certain or Guess. Rows which are marked as Guess can either be decoupled (Decouple) or confirmed (Confirm).
 Orders that remain Uncoupled can either be ignored (Ignore) or manually coupled.
 For this you will find a list of orders with the order identifiers, customer names, and the total amount, so you can select the right one.
 Using the Submit coupled data button will confirm the coupling of all bankdata marked as Certain, including the change of order status.
