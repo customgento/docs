@@ -9,7 +9,7 @@ entries:
     output: web
     folderitems:
     - title: ConfigurableTierPrices
-      url: /cti_index.html
+      url: /ctp_index.html
       output: web
     - title: BankIntegration
       url: /bi_index.html
