@@ -5,8 +5,11 @@ search: exclude
 ---
 
 [
+{% assign firstNotExcludedPageFound = false %}
 {% for page in site.pages %}
-{% unless page.search == "exclude" %}
+{% if forloop.first == false and firstNotExcludedPageFound == true and page.search != "exclude" %},{% endif %}
+{% if page.search != "exclude" %}
+{% assign firstNotExcludedPageFound = true %}
 {
 "title": "{{ page.title | escape }}",
 "tags": "{{ page.tags }}",
@@ -14,20 +17,7 @@ search: exclude
 "url": "{{ page.url | remove: "/"}}",
 "summary": "{{page.summary | strip }}"
 }
-{% unless forloop.last and site.posts.size < 1 %},{% endunless %}
-{% endunless %}
-{% endfor %}
-
-{% for post in site.posts %}
-
-{
-"title": "{{ post.title | escape }}",
-"tags": "{{ post.tags }}",
-"keywords": "{{post.keywords}}",
-"url": "{{ post.url | remove: "/" }}",
-"summary": "{{post.summary | strip }}"
-}
-{% unless forloop.last %},{% endunless %}
+{% endif %}
 {% endfor %}
 
 ]
