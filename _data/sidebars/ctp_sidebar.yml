@@ -8,6 +8,36 @@ entries:
   - title: ConfigurableTierPrices
     output: web
     folderitems:
-    - title: Overview
-      url: /ctp_index.html#overview
+    - title: Description
+      url: /ctp_index.html#description
+      output: web
+    - title: Requirements
+      url: /ctp_index.html#requirements
+      output: web
+    - title: Compatibility
+      url: /ctp_index.html#compatibility
+      output: web
+    - title: Installation Instructions
+      url: /ctp_index.html#installation-instructions
+      output: web
+    - title: Frequently Asked Questions
+      url: /ctp_index.html#frequently-asked-questions
+      output: web
+    - title: Uninstallation
+      url: /ctp_index.html#uninstallation
+      output: web
+    - title: Support
+      url: /ctp_index.html#support
+      output: web
+    - title: Travis Build Status
+      url: /ctp_index.html#travis-build-status
+      output: web
+    - title: Contribution
+      url: /ctp_index.html#contribution
+      output: web
+    - title: Licence
+      url: /ctp_index.html#licence
+      output: web
+    - title: Copyright
+      url: /ctp_index.html#copyright
       output: web
