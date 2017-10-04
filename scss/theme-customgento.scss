@@ -32,6 +32,10 @@ h3 {
     color: $black;
 }
 
+img {
+    max-width: 100% !important;
+}
+
 body > .container {
     padding-top: 70px;
 }
