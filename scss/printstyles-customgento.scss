@@ -1,0 +1,30 @@
+body {
+    margin: 0 25mm;
+
+    > .container {
+        padding-top: 0;
+    }
+}
+
+@page {
+    size: A4;
+}
+
+.nav {
+    > li {
+        display: none;
+
+        &.sidebarLogo {
+            display: block;
+            margin: 15px 0;
+        }
+    }
+}
+
+a.githubEditButton {
+    display: none;
+}
+
+hr.shaded {
+    display: none;
+}
