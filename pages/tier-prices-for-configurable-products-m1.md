@@ -48,24 +48,16 @@ It is also possible to disable the updated price calculation for specific produc
 Therefore, you can set the attribute `configtierprices_disabled` / "Disable CustomGento Configurable Tier Prices" in the "General" tab of the product to "No":
 
 ![Disable Tier Prices For Configurable Products By Product]({{ "images/tier-prices-for-configurable-products/disable-by-product.png" }} "Disable Tier Prices For Configurable Products By Product")
-
-## Functionality
-The extension only changes the price calculation of a configurable product if all of the following conditions are true:
-
-- The extension is enabled under System > Configuration > Sales > Tier Prices For Configurable Products.
-- The configurable product is **not** in one of the selected categories under the same config path.
-- Tier Prices For Configurable Products is not disabled in the respective configurable product.
   
-## Frequently Asked Questions 
-
-### I installed the extension, but it does not work - can you help me?
-Please check the following:
+## Troubleshooting - I installed the extension, but it does not work
 
 1. Do you use the latest version of the extension?
 2. Do you use Magento >= 1.7?
 3. Do you really use configurable products? This extension only works with configurable products. It does not work if you use e.g. simple products with custom options.
-4. Make sure that the extension is not deactivated completely, for a specific category or for a specific product. You can check that under System > Configuration > Sales > Tier Prices For Configurable Products, in the respective categories and in the respective product.
-5. Make sure that your tier prices are lower than the normal prices. That is the way they are supposed to be used.
+4. Make sure that the extension is not disabled under System > Configuration > Sales > Tier Prices For Configurable Products.
+5. Make sure that the configurable product is **not** in one of the disabled categories under System > Configuration > Sales > Tier Prices For Configurable Products.
+6. Make sure that the extension is not disabled in the respective configurable product.
+7. Make sure that your tier prices are lower than the normal prices. That is the way they are supposed to be used.
 
 ## Uninstallation
 1. Remove all extension files from your Magento installation.

@@ -20,8 +20,11 @@ entries:
     - title: Installation Instructions
       url: "#installation-instructions"
       output: web
-    - title: Frequently Asked Questions
-      url: "#frequently-asked-questions"
+    - title: Configuration
+      url: "#configuration"
+      output: web
+    - title: Troubleshooting
+      url: "#troubleshooting---i-installed-the-extension-but-it-does-not-work"
       output: web
     - title: Uninstallation
       url: "#uninstallation"
