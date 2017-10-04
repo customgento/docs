@@ -35,6 +35,8 @@ Fortunately, you can install the module Tier Prices For Configurable Products an
 2. Copy all the files into your document root.
 3. Clear the cache.
 
+For more in-depth Magento extension installation instructions, checkout [Fooman's Ultimate Guide to Installing Magento Extensions](https://store.fooman.co.nz/media/custom/upload/TheUltimateGuidetoInstallingMagentoExtensions.pdf).
+
 ## Configuration
 You find the settings under System > Configuration > Sales > Tier Prices For Configurable Products.
 You can enable the extension there. You can disable the extension for specific categories as well.
