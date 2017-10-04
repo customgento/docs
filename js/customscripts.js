@@ -20,6 +20,11 @@ $( document ).ready(function() {
      */
     anchors.add('h2,h3,h4,h5');
 
+    $('a[href^="#"]').click(function(e) {
+        e.preventDefault();
+        $('html,body').stop(true).animate({scrollTop: $(this.hash).offset().top - 70});
+    });
+
 });
 
 // needed for nav tabs on pages. See Formatting > Nav tabs for more details.
