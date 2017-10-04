@@ -8,12 +8,9 @@ entries:
   - title: Extensions
     output: web
     folderitems:
-    - title: ConfigurableTierPrices
-      url: /ctp_index.html
+    - title: ConfigurableTierPrices (Magento 1)
+      url: /tier-prices-for-configurable-products-m1.html
       output: web
-    - title: BankIntegration
-      url: /bi_index.html
-      output: web
-    - title: OptionsTierPrices
-      url: /otp_index.html
-      output: web
+#    - title: BankIntegration
+#      url: /bank-integration-m1.html
+#      output: web

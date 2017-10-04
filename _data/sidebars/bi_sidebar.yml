@@ -9,23 +9,23 @@ entries:
     output: web
     folderitems:
     - title: General Configuration
-      url: /bi_index.html#general-configuration
+      url: /bank-integration-m1.html#general-configuration
       output: web
     - title: The Upload Page
-      url: /bi_index.html#the-upload-page
+      url: /bank-integration-m1.html#the-upload-page
       output: web
     - title: The Bank/Order Coupling Page
-      url: /bi_index.html#the-bank/order-coupling-page
+      url: /bank-integration-m1.html#the-bank/order-coupling-page
       output: web
     - title: The Review Bankdata Pages
-      url: /bi_index.html#the-review-bankdata-pages
+      url: /bank-integration-m1.html#the-review-bankdata-pages
       output: web
     - title: The Bank Payments Tab
-      url: /bi_index.html#the-bank-payments-tab
+      url: /bank-integration-m1.html#the-bank-payments-tab
       output: web
     - title: The Filter Settings
-      url: /bi_index.html#the-filter-settings
+      url: /bank-integration-m1.html#the-filter-settings
       output: web
     - title: Frequently Asked Questions
-      url: /bi_index.html#frequently-asked-questions
+      url: /bank-integration-m1.html#frequently-asked-questions
       output: web

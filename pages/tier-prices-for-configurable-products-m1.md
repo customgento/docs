@@ -1,9 +1,8 @@
 ---
-title: Tier Prices For Configurable Products
-permalink: ctp_index.html
+title: Tier Prices For Configurable Products (Magento 1)
+permalink: tier-prices-for-configurable-products-m1.html
 summary: "The extension Tier Prices For Configurable Products &ndash; formerly known as Spranks_ConfigurableTierPrices &ndash; changes the way Magento calculates tier prices of configurable products. You can now add different variants of a configurable product to the cart and you will get the tier price for the total quantity of all variants in the cart."
 sidebar: ctp_sidebar
-folder: ctp
 ---
 
 ## Description

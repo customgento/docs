@@ -12,9 +12,7 @@ topnav_dropdowns:
   folders:
     - title: Extensions
       folderitems:
-        - title: ConfigurableTierPrices
-          url: /ctp_index.html
-        - title: BankIntegration
-          url: /bi_index.html
-        - title: OptionsTierPrices
-          url: /otp_index.html
+        - title: ConfigurableTierPrices (Magento 1)
+          url: /tier-prices-for-configurable-products-m1.html
+#        - title: BankIntegration
+#          url: /bank-integration-m1.html

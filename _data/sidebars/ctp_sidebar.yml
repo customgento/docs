@@ -9,35 +9,35 @@ entries:
     output: web
     folderitems:
     - title: Description
-      url: /ctp_index.html#description
+      url: /tier-prices-for-configurable-products-m1.html#description
       output: web
     - title: Requirements
-      url: /ctp_index.html#requirements
+      url: /tier-prices-for-configurable-products-m1.html#requirements
       output: web
     - title: Compatibility
-      url: /ctp_index.html#compatibility
+      url: /tier-prices-for-configurable-products-m1.html#compatibility
       output: web
     - title: Installation Instructions
-      url: /ctp_index.html#installation-instructions
+      url: /tier-prices-for-configurable-products-m1.html#installation-instructions
       output: web
     - title: Frequently Asked Questions
-      url: /ctp_index.html#frequently-asked-questions
+      url: /tier-prices-for-configurable-products-m1.html#frequently-asked-questions
       output: web
     - title: Uninstallation
-      url: /ctp_index.html#uninstallation
+      url: /tier-prices-for-configurable-products-m1.html#uninstallation
       output: web
     - title: Support
-      url: /ctp_index.html#support
+      url: /tier-prices-for-configurable-products-m1.html#support
       output: web
     - title: Travis Build Status
-      url: /ctp_index.html#travis-build-status
+      url: /tier-prices-for-configurable-products-m1.html#travis-build-status
       output: web
     - title: Contribution
-      url: /ctp_index.html#contribution
+      url: /tier-prices-for-configurable-products-m1.html#contribution
       output: web
     - title: Licence
-      url: /ctp_index.html#licence
+      url: /tier-prices-for-configurable-products-m1.html#licence
       output: web
     - title: Copyright
-      url: /ctp_index.html#copyright
+      url: /tier-prices-for-configurable-products-m1.html#copyright
       output: web

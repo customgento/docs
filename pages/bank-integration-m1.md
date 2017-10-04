@@ -3,7 +3,6 @@ title: CustomGento_BankIntegration Documentation
 permalink: bi_index.html
 summary: "CustomGento Bankintegration helps you to save yourself a lot of time by importing bank data right into your Magento system. The module is designed for shops who provide prepayment or payment via invoice. Without CustomGento Bankintegration you had to check your bank statements, find the associated order in Magento and change the order status manually. Now all these steps are done automatically. You just upload your bank statement and the module finds the corresponding order via amount and order or invoice id and changes the status. This gives you a lot of time which you can use for the real important things in your business."
 sidebar: bi_sidebar
-folder: bi
 ---
 
 ## General Configuration
