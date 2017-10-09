@@ -1,15 +1,15 @@
 ---
 title: Tier Prices For Configurable Products (Magento 1)
 permalink: tier-prices-for-configurable-products-m1.html
-summary: "The extension Tier Prices For Configurable Products or CustomGento_ConfigurableTierPrices &ndash; formerly known as Spranks_ConfigurableTierPrices &ndash; changes the way Magento calculates tier prices of configurable products. This extension ensures that if you add different variants of a configurable product to the cart, you get the tier price for the total quantity of all variants in the cart."
+summary: "The extension Tier Prices For Configurable Products or CustomGento_ConfigurableTierPrices &ndash; formerly known as Spranks_ConfigurableTierPrices &ndash; changes the way Magento calculates tier prices of configurable products. This extension ensures that when you add different variations of a configurable product to the cart, you receive the tier price for the total quantity of all variations in the cart."
 sidebar: ctp_sidebar
 ---
 
 ## Description
-This extension for Magento 1 changes the way Magento calculates tier prices of configurable products. You can add different variants of a configurable product to the cart and you will get the tier price for the total quantity of all variants in the cart.
+This extension for Magento 1 changes the way Magento calculates tier prices of configurable products. You can add different variations of a configurable product to the cart and you will receive the tier price for the total quantity of all variations in the cart.
 
 ### Example
-There is a configurable product "Awesome T-Shirt" and there are two corresponding variants "green" and "orange". The price for each t-shirt is 20 EUR. If you buy five or more, you only have to pay 18 EUR each. Now you add three green and two orange t-shirts to your cart. What would you expect? You would like to have the t-shirts for 18 EUR each, right? Not with Magento. Unfortunately, Magento will charge you 20 EUR each:
+There is a configurable product "Awesome T-Shirt" and there are two corresponding variations "green" and "orange". The price for each t-shirt is 20 EUR. If you buy five or more, you only have to pay 18 EUR each. Now you add three green and two orange t-shirts to your cart. What would you expect? You would like to have the t-shirts for 18 EUR each, right? Not with Magento. Unfortunately, Magento will charge you 20 EUR each:
 
 ![Tier Prices Without CustomGento_ConfigurableTierPrices]({{ "images/tier-prices-for-configurable-products/tier-prices-before.png" }} "Tier Prices Without CustomGento_ConfigurableTierPrices")
 
