@@ -32,8 +32,6 @@ entries:
     - title: Support
       url: "#support"
       output: web
-    - title: Travis Build Status
-      url: "#travis-build-status"
       output: web
     - title: Licence
       url: "#licence"
