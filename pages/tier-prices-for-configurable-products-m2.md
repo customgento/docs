@@ -36,7 +36,7 @@ And you can even choose that the respective tier prices shall be taken. So you f
 
 
 ## Requirements
-- PHP 5.5.0, 5.6.0 or 7.0.0
+- PHP >= 7.0
 - magento/module-catalog
 - magento/module-eav
 - magento/module-store
@@ -44,11 +44,10 @@ And you can even choose that the respective tier prices shall be taken. So you f
 - magento/framework
 
 ## Compatibility
-- Magento 2
+- Magento >= 2.2
 
 ## Installation Instructions
-1. Copy all the files into your document root.
-2. Clear the cache.
+// TODO
 
 ## Configuration
 You find the settings under Stores > Configuration > Sales > Sales > Configurable Tier Prices.
@@ -71,19 +70,10 @@ Therefore, you can set the attribute `configurabletierprice_disabled` / " Disabl
 6. Make sure that your tier prices are lower than the normal prices. That is the way they are supposed to be used.
 
 ## Uninstallation
-1. Remove all extension files from your Magento installation.
-2. Run the following SQL query **after** removing the extension files:
-
-```sql
-DELETE FROM `eav_attribute` WHERE attribute_code = 'configtierprices_disabled';
-DELETE FROM `core_resource` WHERE code = 'customgento_configurabletierprices_setup';
-```
+// TODO
 
 ## Support
 If you have any issues with this extension, feel free to [contact us](http://customgento.com/)!
-
-## Travis Build Status
-[![Build Status](https://travis-ci.org/customgento/CustomGento_ConfigurableTierPrices.svg?branch=master)](https://travis-ci.org/customgento/CustomGento_ConfigurableTierPrices)
 
 ## Licence
 [OSL - Open Software Licence 3.0](https://opensource.org/licenses/osl-3.0.php)
