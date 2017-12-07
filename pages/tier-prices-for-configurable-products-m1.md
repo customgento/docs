@@ -45,7 +45,7 @@ If you want to disable the extension for multiple categories, hold down CTRL and
 ![Configure Tier Prices For Configurable Products]({{ "images/tier-prices-for-configurable-products-m1/system-configuration.png" }} "Configure Tier Prices For Configurable Products")
 
 It is also possible to disable the updated price calculation for specific products.
-Therefore, you can set the attribute `configtierprices_disabled` / "Disable CustomGento Configurable Tier Prices" in the "General" tab of the product to "No":
+Therefore, you can set the attribute `configtierprices_disabled` / "Disable Tier Prices For Configurable Products" in the "General" tab of the product to "Yes":
 
 ![Disable Tier Prices For Configurable Products By Product]({{ "images/tier-prices-for-configurable-products-m1/disable-by-product.png" }} "Disable Tier Prices For Configurable Products By Product")
   
