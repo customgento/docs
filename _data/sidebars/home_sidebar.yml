@@ -11,7 +11,7 @@ entries:
     - title: ConfigurableTierPrices (Magento 1)
       url: /tier-prices-for-configurable-products-m1.html
       output: web
-      - title: ConfigurableTierPrices (Magento 2)
+    - title: ConfigurableTierPrices (Magento 2)
       url: /tier-prices-for-configurable-products-m2.html
       output: web
 #    - title: BankIntegration
