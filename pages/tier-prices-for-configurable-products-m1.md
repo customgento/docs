@@ -2,7 +2,7 @@
 title: Tier Prices For Configurable Products (Magento 1)
 permalink: tier-prices-for-configurable-products-m1.html
 summary: "The extension Tier Prices For Configurable Products or CustomGento_ConfigurableTierPrices &ndash; formerly known as Spranks_ConfigurableTierPrices &ndash; changes the way Magento calculates tier prices of configurable products. This extension ensures that when you add different variations of a configurable product to the cart, you receive the tier price for the total quantity of all variations in the cart."
-sidebar: ctp_sidebar
+sidebar: ctp1_sidebar
 ---
 
 ## Description
@@ -11,11 +11,11 @@ This extension for Magento 1 changes the way Magento calculates tier prices of c
 ### Example
 There is a configurable product "Awesome T-Shirt" and there are two corresponding variations "green" and "orange". The price for each t-shirt is 20 EUR. If you buy five or more, you only have to pay 18 EUR each. Now you add three green and two orange t-shirts to your cart. What would you expect? You would like to have the t-shirts for 18 EUR each, right? Not with Magento. Unfortunately, Magento will charge you 20 EUR each:
 
-![Tier Prices Without CustomGento_ConfigurableTierPrices]({{ "images/tier-prices-for-configurable-products/tier-prices-before.png" }} "Tier Prices Without CustomGento_ConfigurableTierPrices")
+![Tier Prices Without CustomGento_ConfigurableTierPrices]({{ "images/tier-prices-for-configurable-products-m1/tier-prices-before.png" }} "Tier Prices Without CustomGento_ConfigurableTierPrices")
 
 Fortunately, you can install the module Tier Prices For Configurable Products and 18 EUR will be charged as expected:
 
-![Tier Prices With CustomGento_ConfigurableTierPrices]({{ "images/tier-prices-for-configurable-products/tier-prices-after.png" }} "Tier Prices With CustomGento_ConfigurableTierPrices")
+![Tier Prices With CustomGento_ConfigurableTierPrices]({{ "images/tier-prices-for-configurable-products-m1/tier-prices-after.png" }} "Tier Prices With CustomGento_ConfigurableTierPrices")
 
 ## Requirements
 - PHP >= 5.5.0
@@ -42,12 +42,12 @@ You find the settings under System > Configuration > Sales > Tier Prices For Con
 You can enable the extension there. You can disable the extension for specific categories as well.
 If you want to disable the extension for multiple categories, hold down CTRL and select all respective categories:
 
-![Configure Tier Prices For Configurable Products]({{ "images/tier-prices-for-configurable-products/system-configuration.png" }} "Configure Tier Prices For Configurable Products")
+![Configure Tier Prices For Configurable Products]({{ "images/tier-prices-for-configurable-products-m1/system-configuration.png" }} "Configure Tier Prices For Configurable Products")
 
 It is also possible to disable the updated price calculation for specific products.
 Therefore, you can set the attribute `configtierprices_disabled` / "Disable CustomGento Configurable Tier Prices" in the "General" tab of the product to "No":
 
-![Disable Tier Prices For Configurable Products By Product]({{ "images/tier-prices-for-configurable-products/disable-by-product.png" }} "Disable Tier Prices For Configurable Products By Product")
+![Disable Tier Prices For Configurable Products By Product]({{ "images/tier-prices-for-configurable-products-m1/disable-by-product.png" }} "Disable Tier Prices For Configurable Products By Product")
   
 ## Troubleshooting - I installed the extension, but it does not work
 

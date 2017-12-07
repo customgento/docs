@@ -14,5 +14,7 @@ topnav_dropdowns:
       folderitems:
         - title: ConfigurableTierPrices (Magento 1)
           url: /tier-prices-for-configurable-products-m1.html
+          - title: ConfigurableTierPrices (Magento 2)
+          url: /tier-prices-for-configurable-products-m2.html
 #        - title: BankIntegration
 #          url: /bank-integration-m1.html

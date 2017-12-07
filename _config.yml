@@ -79,7 +79,8 @@ defaults:
 
 sidebars:
 - home_sidebar
-- ctp_sidebar
+- ctp1_sidebar
+- ctp2_sidebar
 - bi_sidebar
 - otp_sidebar
 
