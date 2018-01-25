@@ -81,6 +81,7 @@ sidebars:
 - home_sidebar
 - ctp1_sidebar
 - ctp2_sidebar
+- pb_sidebar
 - bi_sidebar
 - otp_sidebar
 

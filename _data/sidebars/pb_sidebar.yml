@@ -1,0 +1,41 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Sidebar
+  levels: one
+  folders:
+
+  - title: Product Badges (Magento 1)
+    output: web
+    folderitems:
+    - title: Description
+      url: "#description"
+      output: web
+    - title: Requirements
+      url: "#requirements"
+      output: web
+    - title: Compatibility
+      url: "#compatibility"
+      output: web
+    - title: Installation Instructions
+      url: "#installation-instructions"
+      output: web
+    - title: Configuration
+      url: "#configuration"
+      output: web
+    - title: Troubleshooting
+      url: "#troubleshooting---i-installed-the-extension-but-it-does-not-work"
+      output: web
+    - title: Uninstallation
+      url: "#uninstallation"
+      output: web
+    - title: Support
+      url: "#support"
+      output: web
+      output: web
+    - title: Licence
+      url: "#licence"
+      output: web
+    - title: Copyright
+      url: "#copyright"
+      output: web
