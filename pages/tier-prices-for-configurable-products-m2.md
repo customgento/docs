@@ -42,6 +42,7 @@ And you can even choose that the respective tier prices shall be taken. So you f
 - magento/module-store
 - magento/module-backend
 - magento/framework
+- magento/checkout
 
 ## Compatibility
 - Magento >= 2.2
