@@ -4,7 +4,7 @@ topnav:
 - title: Topnav
   items:
     - title: Extension Store
-      external_url: http://customgento.com
+      external_url: https://www.customgento.com
 
 #Topnav dropdowns
 topnav_dropdowns:

@@ -78,7 +78,7 @@ Below list.phtml you have to add the actual code that renders the badges per pro
 // TODO
 
 ## Support
-If you have any issues with this extension, feel free to [contact us](http://customgento.com/)!
+If you have any issues with this extension, feel free to [contact us](https://www.customgento.com)!
 
 ## Licence
 [OSL - Open Software Licence 3.0](https://opensource.org/licenses/osl-3.0.php)
