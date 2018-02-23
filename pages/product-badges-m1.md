@@ -84,4 +84,4 @@ If you have any issues with this extension, feel free to [contact us](http://cus
 [OSL - Open Software Licence 3.0](https://opensource.org/licenses/osl-3.0.php)
 
 ## Copyright
-(c) 2012-2017 CustomGento / Simon Sprankel
+(c) 2018 CustomGento / Simon Sprankel

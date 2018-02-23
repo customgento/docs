@@ -81,4 +81,4 @@ Any contribution is highly appreciated. The best way to contribute code is to op
 [OSL - Open Software Licence 3.0](https://opensource.org/licenses/osl-3.0.php)
 
 ## Copyright
-(c) 2012-2017 CustomGento / Simon Sprankel
+(c) 2012-2018 CustomGento / Simon Sprankel
