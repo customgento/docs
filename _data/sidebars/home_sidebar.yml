@@ -14,9 +14,9 @@ entries:
     - title: ConfigurableTierPrices (Magento 2)
       url: /tier-prices-for-configurable-products-m2.html
       output: web
-    - title: ProductBadges (Magento 1)
-      url: /product-badges-m1.html
-      output: web
+#    - title: ProductBadges (Magento 1)
+#      url: /product-badges-m1.html
+#      output: web
 #    - title: BankIntegration
 #      url: /bank-integration-m1.html
 #      output: web
