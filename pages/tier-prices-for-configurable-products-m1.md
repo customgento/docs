@@ -25,7 +25,7 @@ Fortunately, you can install the module Tier Prices For Configurable Products an
 - Mage_Sales
 
 ## Compatibility
-- Magento >= 1.7 and <= 2.0
+- Magento >= 1.7 and < 2.0
 
 ## Installation Instructions
 1. If you have installed Spranks_ConfigurableTierPrices before, please delete the following files and folders from your Magento root before you install this extension:
