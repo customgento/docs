@@ -3,7 +3,7 @@ title: Product Badges (Magento 1)
 permalink: product-badges-m1.html
 summary: "Product Badges for Magento 1 offers you the possibility to add customized badges to your product images. 
 You can customize design, text and spot for your badge. It is also possible to filter the products where the badge should be shown."
-sidebar: pb_sidebar
+sidebar: pb_m1_sidebar
 ---
 
 ## Description
