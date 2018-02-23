@@ -49,7 +49,24 @@ In this case, you get the green ones for 18 USD each and the orange ones for 16 
 - Magento >= 2.2
 
 ## Installation Instructions
-// TODO
+The installation depends deeply on your system configuration.
+If you are using composer and downloaded the extension from the magento marketplace, we would recommend installation via composer:
+- change directory to your magento root folder and run the following commands
+- php bin/magento maintenance:enable
+- composer require customgento/module-configurable-tier-prices-m2
+- php bin/magento setup:upgrade
+- php bin/magento setup:di:compile
+- php bin/magento cache:flush
+- php bin/magento maintenance:disable
+
+Otherwise please install the module manually:
+- unzip the downloaded files
+- copy the unzipped files to {your magento2 root folder}/app/code/CustomGento/ConfigurableTierPrices/
+- change directory to your magento root folder and run the following commands
+- php bin/magento module:enable CustomGento_ConfigurableTierPrices
+- php bin/magento setup:upgrade
+- php bin/magento setup:di:compile
+- php bin/magento cache:flush
 
 ## Configuration
 You find the settings under Stores > Configuration > Sales > Sales > Tier Prices For Configurable Products.
@@ -83,7 +100,7 @@ If Tier Prices For Configurable Products is disabled for a specific product or f
 // TODO
 
 ## Support
-If you have any issues with this extension, feel free to [contact us](https://www.customgento.com)!
+If you have any issues with this extension, feel free to [contact us](http://customgento.com/)!
 
 ## Licence
 [OSL - Open Software Licence 3.0](https://opensource.org/licenses/osl-3.0.php)
