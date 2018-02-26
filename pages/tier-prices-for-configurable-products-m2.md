@@ -52,21 +52,21 @@ In this case, you get the green ones for 18 USD each and the orange ones for 16 
 The installation procedure highly depends on your setup. In any case, you should use a version control system like git and test the installation on a development system.
 If you are using composer (you should!) and downloaded the extension from the Marketplace or have set up your own composer repository, we recommend installing via composer.
 
-### Installing Via Composer
-- `composer require customgento/module-configurable-tier-prices-m2`
-- `bin/magento module:enable CustomGento_ConfigurableTierPrices`
-- `bin/magento setup:upgrade`
-- `bin/magento setup:di:compile`
-- `bin/magento cache:flush`
+### Composer Installation
+1. `composer require customgento/module-configurable-tier-prices-m2`
+2. `bin/magento module:enable CustomGento_ConfigurableTierPrices`
+3. `bin/magento setup:upgrade`
+4. `bin/magento setup:di:compile`
+5. `bin/magento cache:flush`
 
-### Installing Manually
-- unzip the downloaded files
-- create the directory `app/code/CustomGento/ConfigurableTierPrices/`: `mkdir -p app/code/CustomGento/ConfigurableTierPrices/`
-- copy the unzipped files to the newly created directory `app/code/CustomGento/ConfigurableTierPrices/`
-- `bin/magento module:enable CustomGento_ConfigurableTierPrices`
-- `bin/magento setup:upgrade`
-- `bin/magento setup:di:compile`
-- `bin/magento cache:flush`
+### Manual Installation
+1. unzip the downloaded files
+2. create the directory `app/code/CustomGento/ConfigurableTierPrices/`: `mkdir -p app/code/CustomGento/ConfigurableTierPrices/`
+3. copy the unzipped files to the newly created directory `app/code/CustomGento/ConfigurableTierPrices/`
+4. `bin/magento module:enable CustomGento_ConfigurableTierPrices`
+5. `bin/magento setup:upgrade`
+6. `bin/magento setup:di:compile`
+7. `bin/magento cache:flush`
 
 ## Configuration
 You find the settings under Stores > Configuration > Sales > Sales > Tier Prices For Configurable Products.
@@ -97,7 +97,18 @@ If Tier Prices For Configurable Products is disabled for a specific product or f
 7. Make sure that your tier prices are lower than the normal prices. That is the way they are supposed to be used.
 
 ## Uninstallation
-// TODO
+The installation procedure depends on your setup:
+
+### Uninstallation After Composer Installation
+1. `bin/magento module:uninstall CustomGento_ConfigurableTierPrices`
+2. `bin/magento setup:di:compile`
+3. `bin/magento cache:flush`
+
+### Uninstallation After Manual Installation
+1. `bin/magento module:disable CustomGento_ConfigurableTierPrices`
+2. `bin/magento setup:di:compile`
+3. `bin/magento cache:flush`
+4. `rm -r app/code/CustomGento/ConfigurableTierPrices`
 
 ## Support
 If you have any issues with this extension, feel free to [contact us](http://customgento.com/)!
