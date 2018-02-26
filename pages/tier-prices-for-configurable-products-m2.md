@@ -111,7 +111,7 @@ The installation procedure depends on your setup:
 4. `rm -r app/code/CustomGento/ConfigurableTierPrices`
 
 ## Support
-If you have any issues with this extension, feel free to [contact us](http://customgento.com/)!
+If you have any issues with this extension, feel free to [contact us](https://www.customgento.com/)!
 
 ## Licence
 [CustomGento Commercial Software Licence](https://www.customgento.com/license){:target="_blank"}
