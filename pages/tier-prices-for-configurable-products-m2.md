@@ -49,24 +49,24 @@ In this case, you get the green ones for 18 USD each and the orange ones for 16 
 - Magento >= 2.2
 
 ## Installation Instructions
-The installation depends deeply on your system configuration.
-If you are using composer and downloaded the extension from the magento marketplace, we would recommend installation via composer:
-- change directory to your magento root folder and run the following commands
-- php bin/magento maintenance:enable
-- composer require customgento/module-configurable-tier-prices-m2
-- php bin/magento setup:upgrade
-- php bin/magento setup:di:compile
-- php bin/magento cache:flush
-- php bin/magento maintenance:disable
+The installation procedure highly depends on your setup. In any case, you should use a version control system like git and test the installation on a development system.
+If you are using composer (you should!) and downloaded the extension from the Marketplace or have set up your own composer repository, we recommend installing via composer.
 
-Otherwise please install the module manually:
+### Installing Via Composer
+- `composer require customgento/module-configurable-tier-prices-m2`
+- `bin/magento module:enable CustomGento_ConfigurableTierPrices`
+- `bin/magento setup:upgrade`
+- `bin/magento setup:di:compile`
+- `bin/magento cache:flush`
+
+### Installing Manually
 - unzip the downloaded files
-- copy the unzipped files to {your magento2 root folder}/app/code/CustomGento/ConfigurableTierPrices/
-- change directory to your magento root folder and run the following commands
-- php bin/magento module:enable CustomGento_ConfigurableTierPrices
-- php bin/magento setup:upgrade
-- php bin/magento setup:di:compile
-- php bin/magento cache:flush
+- create the directory `app/code/CustomGento/ConfigurableTierPrices/`: `mkdir -p app/code/CustomGento/ConfigurableTierPrices/`
+- copy the unzipped files to the newly created directory `app/code/CustomGento/ConfigurableTierPrices/`
+- `bin/magento module:enable CustomGento_ConfigurableTierPrices`
+- `bin/magento setup:upgrade`
+- `bin/magento setup:di:compile`
+- `bin/magento cache:flush`
 
 ## Configuration
 You find the settings under Stores > Configuration > Sales > Sales > Tier Prices For Configurable Products.
