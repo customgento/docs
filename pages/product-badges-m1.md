@@ -75,7 +75,15 @@ Below list.phtml you have to add the actual code that renders the badges per pro
 4. Check if you chose fitting conditions for your badge, so that it is displayed for the correct collection of products.
 
 ## Uninstallation
-// TODO
+1. Remove all extension files from your Magento installation.
+2. Clear the cache.
+3. Run the following SQL query **after** removing the extension files:
+```sql
+DROP TABLE `customgento_productbadges_queue`;
+DROP TABLE `customgento_productbadges_badges_config`;
+DELETE FROM `core_resource` WHERE code = 'customgento_productbadges_setup';
+```
+4. Drop all tables matching the pattern `customgento_productbadges_badges_index_*`. The extension creates one table per store, so that the number of tables depends on your configuration.
 
 ## Support
 If you have any issues with this extension, feel free to [contact us](https://www.customgento.com)!
