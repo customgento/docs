@@ -1,3 +1,3 @@
 # CustomGento Magento Extensions Documentation
 
-http://docs.customgento.com
+https://docs.customgento.com
