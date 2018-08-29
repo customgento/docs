@@ -89,7 +89,7 @@ DELETE FROM `core_resource` WHERE code = 'customgento_productbadges_setup';
 If you have any issues with this extension, feel free to [contact us](https://www.customgento.com)!
 
 ## Licence
-[OSL - Open Software Licence 3.0](https://opensource.org/licenses/osl-3.0.php)
+[CustomGento Commercial Software Licence](https://www.customgento.com/license){:target="_blank"}
 
 ## Copyright
 (c) 2018 CustomGento / Simon Sprankel
