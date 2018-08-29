@@ -68,7 +68,6 @@ Below list.phtml you have to add the actual code that renders the badges per pro
 
 
 ## Troubleshooting - I installed the extension, but it does not work
-
 1. Do you use the latest version of the extension?
 2. Make sure that the extension is **not**  disabled under Stores > Configuration > Catalog > Product Badges.
 3. Make sure that the automatic index is **not** disabled or if it is, reindex manually in the index management.
