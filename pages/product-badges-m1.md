@@ -26,11 +26,37 @@ Like this you can add as many badges as you want and choose for every badge the 
 - Mage_Core
 
 ## Compatibility
-- Magento >= 1.7 and <= 2.0
+- Magento >= 1.9 and <= 2.0
 
 ## Installation Instructions
 1. Copy all the files into your document root.
-2. Clear the cache.
+2. Update your main product list template (usually `app/design/frontend/package/theme/template/catalog/product/list.phtml`):
+    1. In the beginning of the file, after the product collection assignment (after the line `$_productCollection=$this->getLoadedProductCollection();`), add:
+        ```php
+        /** @var CustomGento_ProductBadges_Helper_Data $_badgesHelper */
+        $_badgesHelper = Mage::helper('customgento_productbadges');
+        $_badgesHelper->initProductBadgeCollection($_productCollection);
+        ```
+    2. Inside of the link, which encloses the product image (usually an `<a>` tag with a class `product-image`), add:
+        ```php
+        <?php echo $_badgesHelper->generateBadgesHtml($_product); ?>
+        ```
+        Mind that there are often two occurrences of the mentioned tag - one for the list view and one for the grid view. Please update both.
+3. Repeat step 2 for all product list templates, where you want product badges to appear. Possible other locations:
+    - `app/design/frontend/package/theme/template/catalog/product/list/related.phtml`
+    - `app/design/frontend/package/theme/template/checkout/cart/crosssell.phtml`
+    - ... (you can use `grep -R 'products-list' app/design/frontend/package/theme/` to find possible locations)
+4. Update your product view media template (usually `app/design/frontend/package/theme/template/catalog/product/view/media.phtml`):
+    1. In the beginning of the file, after the helper creation (after the line `$_helper = $this->helper('catalog/output');`), add:
+        ```php
+        /** @var CustomGento_ProductBadges_Helper_Data $_badgesHelper */
+        $_badgesHelper = Mage::helper('customgento_productbadges');
+        ```
+    2. Inside of the container, which encloses the main product image (usually a `<div>` tag with a class `product-image-gallery`), add:
+        ```php
+        <?php echo $_badgesHelper->generateSingleProductBadgesHtml($_product); ?>
+        ```
+5. Clear the cache.
 
 For more in-depth Magento extension installation instructions, checkout [Fooman's Ultimate Guide to Installing Magento Extensions](https://store.fooman.co.nz/media/custom/upload/TheUltimateGuidetoInstallingMagentoExtensions.pdf).
 
@@ -48,24 +74,6 @@ With a click on 'Add new Badge' you find a form where you can input all required
 You can activate or inactivate a badge there. Right below you find a section for the visualisation settings.
 There you can decide the shape of the badge, upload a customized image if you want, and choose the text, colour and spot for your badge.
 On the left side you can switch to the next tab conditions and filter the products where your badge should be shown.
-
-In general you have to add the following lines in the of catalog/product/list.phtml of your current theme:
-```php
-/** @var CustomGento_ProductBadges_Helper_Data $_badgesHelper */
-$_badgesHelper = Mage::helper('customgento_productbadges');
-$_badgesHelper->initProductBadgeCollection($_productCollection);
-```
-
-Below list.phtml you have to add the actual code that renders the badges per products:
-```php
-<?php
-    /**
-     * Rendering product badges for Product List Page
-     */
-     echo $_badgesHelper->generateBadgesHtml($_product);
-?>
-```
-
 
 ## Troubleshooting - I installed the extension, but it does not work
 1. Do you use the latest version of the extension?
