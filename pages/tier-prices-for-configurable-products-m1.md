@@ -61,7 +61,8 @@ Therefore, you can set the attribute `configtierprices_disabled` / "Disable Tier
 
 ## Uninstallation
 1. Remove all extension files from your Magento installation.
-2. Run the following SQL query **after** removing the extension files:
+2. Clear the cache.
+3. Run the following SQL query **after** removing the extension files:
 
 ```sql
 DELETE FROM `eav_attribute` WHERE attribute_code = 'configtierprices_disabled';
