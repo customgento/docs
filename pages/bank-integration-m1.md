@@ -7,7 +7,7 @@ sidebar: bi_m1_sidebar
 
 ## General Configuration
 To configure CustomGento Bankintegration go to Configuration under the tab System. In the left menu you will find the item Customgento with the tab Bankintegration.
-First of all you choose the banks you want to import your data from. You can choose several banks if you have more than one account. If your bank is not in the list, please contact us via info@customgento.com and send us an example of your bank statement format. We will then add your bank as soon as possible.
+First of all you choose the banks you want to import your data from. You can choose several banks if you have more than one account. If your bank is not in the list, please contact us via support@customgento.com and send us an example of your bank statement format. We will then add your bank as soon as possible.
 In the next section you decide the order status mapping. On the left side you choose for which status the module should check and on the right side you choose which status should be assigned if the relevant order has been paid. Of course you can choose various status combinations if needed. Please make sure that you do not create any logical conflicts between the different status mappings.
 The next option is just relevant for users who use the M2E Pro module for synchronizing Magento with other marketplaces like Ebay or Amazon. These marketplaces have their own order ids. So the module has no chance to couple a bank entry to the right Magento order if the buyer just named the marketplace order id. If you enable this option, the module checks for these order ids and translates them into Magento order ids to find the right order.
 
