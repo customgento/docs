@@ -35,7 +35,7 @@ Fortunately, you can install the module Tier Prices For Configurable Products an
 2. Copy all the files into your document root.
 3. Clear the cache.
 
-For more in-depth Magento extension installation instructions, checkout [Fooman's Ultimate Guide to Installing Magento Extensions](https://store.fooman.co.nz/media/custom/upload/TheUltimateGuidetoInstallingMagentoExtensions.pdf).
+For more in-depth Magento extension installation instructions, checkout [Fooman's Ultimate Guide to Installing Magento Extensions](https://store.fooman.co.nz/media/custom/upload/TheUltimateGuidetoInstallingMagentoExtensions.pdf){:target="_blank"}.
 
 ## Configuration
 You find the settings under System > Configuration > Sales > Tier Prices For Configurable Products.
@@ -70,16 +70,16 @@ DELETE FROM `core_resource` WHERE code = 'customgento_configurabletierprices_set
 ```
 
 ## Support
-If you have any issues with this extension, open an issue on [GitHub](https://github.com/customgento/CustomGento_ConfigurableTierPrices/issues).
+If you have any issues with this extension, open an issue on [GitHub](https://github.com/customgento/CustomGento_ConfigurableTierPrices/issues){:target="_blank"}.
 
 ## Travis Build Status
-[![Build Status](https://travis-ci.org/customgento/CustomGento_ConfigurableTierPrices.svg?branch=master)](https://travis-ci.org/customgento/CustomGento_ConfigurableTierPrices)
+[![Build Status](https://travis-ci.org/customgento/CustomGento_ConfigurableTierPrices.svg?branch=master)](https://travis-ci.org/customgento/CustomGento_ConfigurableTierPrices){:target="_blank"}
 
 ## Contribution
-Any contribution is highly appreciated. The best way to contribute code is to open a [pull request on GitHub](https://help.github.com/articles/using-pull-requests).
+Any contribution is highly appreciated. The best way to contribute code is to open a [pull request on GitHub](https://help.github.com/articles/using-pull-requests){:target="_blank"}.
 
 ## Licence
-[OSL - Open Software Licence 3.0](https://opensource.org/licenses/osl-3.0.php)
+[OSL - Open Software Licence 3.0](https://opensource.org/licenses/osl-3.0.php){:target="_blank"}
 
 ## Copyright
 (c) 2012-2018 CustomGento / Simon Sprankel
