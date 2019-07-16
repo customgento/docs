@@ -86,6 +86,8 @@ Disable Tier Prices For Configurable Products in the category:
 ![Disable Tier Prices For Configurable Products By Category]({{ "images/tier-prices-for-configurable-products-m2/disable-by-category.png" }} "Disable Tier Prices For Configurable Products By Category")
 
 If Tier Prices For Configurable Products is disabled for a specific product or for any category this product is assigned to, the extension will not change the price calculation of this product at all.
+Please note, that in this case the original Magento price calculation will work as usual. Tier prices will still be applied, if the required quantity of a child product is reached, but the quantities
+will not be summed up anymore between different child products. 
 
 ## Troubleshooting - I installed the extension, but it does not work
 1. Do you use the latest version of the extension?
