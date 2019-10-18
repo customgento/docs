@@ -36,14 +36,15 @@ In this case, you get the green ones for 18 USD each and the orange ones for 16 
 ![Tier Prices With CustomGento_ConfigurableTierPrices - Respective Tier Price]({{ "images/tier-prices-for-configurable-products-m2/tier-prices-after-respective.png" }} "Tier Prices With CustomGento_ConfigurableTierPrices")
 
 ## Requirements
-- PHP `~7.0.0|~7.1.0|~7.2.0`
-- magento/framework `~101.0.0|~102.0.0`
-- magento/module-backend `~100.2|~101.0`
-- magento/module-catalog `~102.0|~103.0`
+- PHP `~7.0.0||~7.1.0||~7.2.0||~7.3.0`
+- magento/framework `~101.0.0||~102.0.0`
+- magento/module-backend `~100.2||~101.0`
+- magento/module-catalog `~102.0||~103.0`
 - magento/module-checkout `~100.2`
-- magento/module-eav `~101.0|~102.0`
+- magento/module-configurable-product `~100.2||~100.3`
+- magento/module-eav `~101.0||~102.0`
 - magento/module-quote `~101.0`
-- magento/module-store `~100.2|~101.0`
+- magento/module-store `~100.2||~101.0`
 
 ## Compatibility
 - Magento >= 2.2
