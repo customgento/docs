@@ -35,6 +35,9 @@ In this case, you get the green ones for 18 USD each and the orange ones for 16 
 
 ![Tier Prices With CustomGento_ConfigurableTierPrices - Respective Tier Price]({{ "images/tier-prices-for-configurable-products-m2/tier-prices-after-respective.png" }} "Tier Prices With CustomGento_ConfigurableTierPrices")
 
+### Simple Products Visible In Catalog
+Given your simple products, which are assigned to configurable products, are also visible in the catalog individually: If the customer adds such simple products to the cart plus their respective configurable counterparts, both quantities will be combined and respected for the tier price calculation. 
+
 ## Requirements
 - PHP `~7.0.0||~7.1.0||~7.2.0||~7.3.0`
 - magento/framework `~101.0.0||~102.0.0`
@@ -71,7 +74,7 @@ If you are using composer (you should!) and downloaded the extension from the Ma
 
 ## Configuration
 You find the settings under Stores > Configuration > Sales > Sales > Tier Prices For Configurable Products.
-You can enable the extension there and also choose the tier price calculation type:
+You can enable the extension there and choose the tier price calculation type:
 
 ![Configure Tier Prices For Configurable Products]({{ "images/tier-prices-for-configurable-products-m2/system-configuration.png" }} "Configure Tier Prices For Configurable Products")
 
