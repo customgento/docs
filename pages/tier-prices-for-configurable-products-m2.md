@@ -50,7 +50,7 @@ Given your simple products, which are assigned to configurable products, are als
 - magento/module-store `~100.2||~101.0`
 
 ## Compatibility
-- Magento >= 2.2
+- Magento >= 2.3
 
 ## Installation Instructions
 The installation procedure highly depends on your setup. In any case, you should use a version control system like git and test the installation on a development system.
@@ -95,7 +95,7 @@ will not be summed up anymore between different child products.
 
 ## Troubleshooting - I installed the extension, but it does not work
 1. Do you use the latest version of the extension?
-2. Do you use Magento >= 2.2?
+2. Do you use Magento >= 2.3?
 3. Do you really use configurable products? This extension only works with configurable products. It does not work if you use e.g. simple products with custom options.
 4. Make sure that the extension is **not** disabled under Stores > Configuration > Sales > Sales > Tier Prices For Configurable Products.
 5. Make sure that the configurable product is **not** in one of the disabled categories.
