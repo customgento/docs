@@ -39,18 +39,19 @@ In this case, you get the green ones for 18 USD each and the orange ones for 16 
 Given your simple products, which are assigned to configurable products, are also visible in the catalog individually: If the customer adds such simple products to the cart plus their respective configurable counterparts, both quantities will be combined and respected for the tier price calculation. 
 
 ## Requirements
-- PHP `~7.1.0||~7.2.0||~7.3.0`
-- magento/framework `~101.0.0||~102.0.0`
-- magento/module-backend `~100.2||~101.0`
-- magento/module-catalog `~102.0||~103.0`
-- magento/module-checkout `~100.2`
-- magento/module-configurable-product `~100.2||~100.3`
-- magento/module-eav `~101.0||~102.0`
+- PHP `~7.1.3||~7.2.0||~7.3.0`
+- magento/framework `~102.0.0`
+- magento/module-backend `~101.0`
+- magento/module-catalog `~103.0`
+- magento/module-checkout `~100.3`
+- magento/module-configurable-product `~100.3`
+- magento/module-customer: `~102.0`
+- magento/module-eav `~102.0`
 - magento/module-quote `~101.0`
-- magento/module-store `~100.2||~101.0`
+- magento/module-store `~101.0`
 
 ## Compatibility
-- Magento >= 2.2
+- Magento >= 2.3
 
 ## Installation Instructions
 The installation procedure highly depends on your setup. In any case, you should use a version control system like git and test the installation on a development system.
@@ -95,7 +96,7 @@ will not be summed up anymore between different child products.
 
 ## Troubleshooting - I installed the extension, but it does not work
 1. Do you use the latest version of the extension?
-2. Do you use Magento >= 2.2?
+2. Do you use Magento >= 2.3?
 3. Do you really use configurable products? This extension only works with configurable products. It does not work if you use e.g. simple products with custom options.
 4. Make sure that the extension is **not** disabled under Stores > Configuration > Sales > Sales > Tier Prices For Configurable Products.
 5. Make sure that the configurable product is **not** in one of the disabled categories.
