@@ -45,7 +45,7 @@ Given your simple products, which are assigned to configurable products, are als
 - magento/module-catalog `~103.0||~104.0`
 - magento/module-checkout `~100.3`
 - magento/module-configurable-product `~100.3`
-- magento/module-customer: `~102.0||~103.0
+- magento/module-customer: `~102.0||~103.0`
 - magento/module-eav `~102.0`
 - magento/module-quote `~101.0`
 - magento/module-store `~101.0`
@@ -78,6 +78,18 @@ You find the settings under Stores > Configuration > Sales > Sales > Tier Prices
 You can enable the extension there and choose the tier price calculation type:
 
 ![Configure Tier Prices For Configurable Products]({{ "images/tier-prices-for-configurable-products-m2/system-configuration.png" }} "Configure Tier Prices For Configurable Products")
+
+Additionally it is possible to define specific product attributes, which should be handled differently in the calculation process.
+When simple products in the cart differ in one of the chosen attributes, their qty is not summed up to calculate the tier prices.
+To see the benefit of this feature, let's take the example of a configurable product with attributes color and size and the following children: 
+
+- 10ml/red: 10 USD → 2 for 8 USD each
+- 10ml/blue: 10 USD → 2 for 8 USD each
+- 100ml/red: 100 USD → 2 for 80 USD each
+- 100ml/blue: 100 USD → 2 for 80 USD each
+
+When a customer now buys one unit of 10ml and one of 100ml, the quantities would be summed up and the tier price would be calculated according to the chosen calculation type. So if type `lowest` is used, the customer would get the products for 8 USD each, which is a lot too cheap for the 100ml product.
+To prevent this, just choose `size` as ignored attribute and the extended calculation process will only apply to products with the same size.
 
 It is also possible to disable the updated price calculation for specific categories or products.
 Therefore, you can set the attribute `configurabletierprice_disabled` / "Disable Tier Prices For Configurable Products" to "Yes" in the configurable product or the category respectively.
