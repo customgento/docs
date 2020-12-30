@@ -135,4 +135,4 @@ If you have any issues with this extension, feel free to [contact us](https://ww
 [CustomGento Commercial Software Licence](https://www.customgento.com/license){:target="_blank"}
 
 ## Copyright
-(c) 2018-2020 CustomGento / Simon Sprankel
+&copy; 2018-2021 CustomGento GmbH
