@@ -3,6 +3,7 @@ title: Product Badges (Magento 1)
 permalink: product-badges-m1.html
 summary: "The Product Badges extension offers you the possibility to add highly customizable badges to your product images without having any performance impact. You can freely define where a badge should be shown via price-rule-like conditions."
 sidebar: pb_m1_sidebar
+toc: false
 ---
 
 ## Description
