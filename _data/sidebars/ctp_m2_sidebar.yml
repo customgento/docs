@@ -32,7 +32,6 @@ entries:
     - title: Support
       url: "#support"
       output: web
-      output: web
     - title: Licence
       url: "#licence"
       output: web
