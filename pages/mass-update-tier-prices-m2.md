@@ -1,16 +1,32 @@
 ---
 title: Mass Update Tier Prices (Magento 2)
 permalink: mass-update-tier-prices-m2.html
-summary: "The extension Mass Update Tier Prices or CustomGento_MassUpdateTierPrices provides the ability to mass update tier prices for multiple products at once. You can replace already existing tier prices or simply add new ones to as many products you want with just one click instead of configure each product individually."
+summary: "The extension Mass Update Tier Prices or CustomGento_MassUpdateTierPrices provides the ability to mass update tier prices for multiple products at once. You can replace already existing tier prices or simply add new ones to as many products you want with just one click instead of configuring each product individually."
 sidebar: mutp_m2_sidebar
 toc: false
 ---
 
 ## Description
-This extension for Magento 2 provides the ability to mass update the tier prices for multiple products at once. If you want to add the same tier prices to more than one product, you no longer need to configure each of those products (or in case of configurable products each variation) individually. Instead you configure the tier price rules at one place only and apply them to every product that should have them.
+This extension for Magento 2 provides the ability to mass update the tier prices for multiple products at once.
 
-### Example
+If you want to add the same tier prices to more than one product, you no longer need to configure each of those products (or in case of configurable products each variation) individually. Instead, you conveniently configure the tier price rules at one place only and apply them to every product that should have them. You can choose whether the new tier price rules should only complement or completely replace already existing ones. In case of configurable products, all variations get the new rules applied.
 
+## Usage Instruction
+In your product overview (Catalog > Product) select the products that should get new tier prices and choose Actions > Update attributes.
+
+![Select Products]({{ "images/mass-update-tier-prices-m2/select-items.jpg" }} "Select Products")
+
+![Choose Update Attributes]({{ "images/mass-update-tier-prices-m2/update-attribute.jpg" }} "Choose Update Attributes")
+
+Select Mass Update Tier Prices. Add & configure as many tier price rules as needed. Make sure to uncheck the checkbox, if you do not wish to replace already existing tier price rules of the products (if the products do not have tier price rules attached yet, you can leave the checkbox clicked). Hit Safe when finished.
+
+![Mass Update Tier Prices Extension]({{ "images/mass-update-tier-prices-m2/configure-rules-form.jpg" }} "Mass Update Tier Prices Extension")
+
+![Configure The Tier Price Rules]({{ "images/mass-update-tier-prices-m2/configure-rules.jpg" }} "Configure The Tier Price Rules")
+
+Go back to you product overview, open one of the altered products and navigate to Advanced Pricing. The tier price rules are applied now. If you chose a configurable product, the rules are automatically applied to all it's variations now.
+
+![Tier Prices Applied To Product]({{ "images/mass-update-tier-prices-m2/check-product.jpg" }} "Tier Prices Applied To Product")
 
 ## Requirements
 - PHP `~7.3.0||~7.4.0`
@@ -48,7 +64,7 @@ If you are using composer (you should!) and downloaded the extension from the Ma
 7. `bin/magento cache:flush`
 
 ## Configuration
-
+Conveniently, the extension is enabled by default. No configurations needed.
 
 ## Troubleshooting - I installed the extension, but it does not work
 1. Do you use the latest version of the extension?
