@@ -24,13 +24,13 @@ Select "Mass Update Tier Prices". Add and configure as many tier prices as neede
 
 ![Configure The Tier Price Rules]({{ "images/mass-update-tier-prices-m2/configure-rules.jpg" }} "Configure The Tier Price Rules")
 
-You will now be notified, that the tier price changes are scheduled for update and added to the queue. They get processed via the cronjob, which may take a few minutes, depending on your cronjob settings. You need to make sure, that your cronjob is running successfully (System > Tools > Cron Job Manager). You can check the status of the updates under System > Action Logs > Bulk Actions.
+You will now be notified, that the tier price changes are scheduled for update and added to the queue. They get processed via the cronjob, which may take a few minutes, depending on your cronjob settings. You need to make sure, that your cronjob is running correctly. You can check the status of the updates under System > Action Logs > Bulk Actions.
 
 ![Queue Notification]({{ "images/mass-update-tier-prices-m2/queue.jpg" }} "Queue Notification")
 
 ![Bulk Actions Log]({{ "images/mass-update-tier-prices-m2/bulk-actions-log.jpg" }} "Bulk Actions Log")
 
-After the updates have been processed, go back to your product overview, open one of the altered products and navigate to "Advanced Pricing". The tier prices are applied now. If you chose a configurable product, the tier prices are automatically applied to all it's variations now.
+After the updates have been processed, go back to your product overview, open one of the altered products and navigate to "Advanced Pricing". The tier prices are applied now. If you chose a configurable product, the tier prices are automatically applied to all its variations now.
 
 ![Tier Prices Applied To Product]({{ "images/mass-update-tier-prices-m2/check-product.jpg" }} "Tier Prices Applied To Product")
 
