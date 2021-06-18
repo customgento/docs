@@ -24,7 +24,7 @@ Select "Mass Update Tier Prices". Add and configure as many tier prices as neede
 
 ![Configure The Tier Price Rules]({{ "images/mass-update-tier-prices-m2/configure-rules.jpg" }} "Configure The Tier Price Rules")
 
-You will now be notified, that the tier price changes are scheduled for update and added to the queue. They get processed via the cronjob, which may take a few minutes, depending on your cronjob settings. You need to make sure, that your cronjob is running successfully (System > Tools > Cron Job Manager). You can check the status of the updates under System > Action Logs > Bulk Actions.
+You will now be notified, that the tier price changes are scheduled for update and added to the queue. They get processed via the cronjob, which may take a few minutes, depending on your cronjob settings. You need to make sure, that your cronjob is running correctly. You can check the status of the updates under System > Action Logs > Bulk Actions.
 
 ![Queue Notification]({{ "images/mass-update-tier-prices-m2/queue.jpg" }} "Queue Notification")
 
