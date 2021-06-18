@@ -30,7 +30,7 @@ You will now be notified, that the tier price changes are scheduled for update a
 
 ![Bulk Actions Log]({{ "images/mass-update-tier-prices-m2/bulk-actions-log.jpg" }} "Bulk Actions Log")
 
-After the updates have been processed, go back to your product overview, open one of the altered products and navigate to "Advanced Pricing". The tier prices are applied now. If you chose a configurable product, the tier prices are automatically applied to all it's variations now.
+After the updates have been processed, go back to your product overview, open one of the altered products and navigate to "Advanced Pricing". The tier prices are applied now. If you chose a configurable product, the tier prices are automatically applied to all its variations now.
 
 ![Tier Prices Applied To Product]({{ "images/mass-update-tier-prices-m2/check-product.jpg" }} "Tier Prices Applied To Product")
 
