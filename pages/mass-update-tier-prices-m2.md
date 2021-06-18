@@ -78,7 +78,7 @@ Conveniently, the extension is enabled by default. No configurations needed.
 7. Make sure that your tier prices are lower than the normal prices. That is the way they are supposed to be used.
 
 ## Uninstallation
-The installation procedure depends on your setup:
+The uninstallation procedure depends on your setup:
 
 ### Uninstallation After Composer Installation
 1. `bin/magento module:uninstall CustomGento_MassUpdateTierPrices`
