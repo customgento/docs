@@ -18,7 +18,7 @@ In your product overview (Catalog > Product) select the products that should get
 
 ![Choose Update Attributes]({{ "images/mass-update-tier-prices-m2/update-attribute.jpg" }} "Choose Update Attributes")
 
-Select Mass Update Tier Prices. Add & configure as many tier price rules as needed. Make sure to uncheck the checkbox, if you do not wish to replace already existing tier price rules of the products (if the products do not have tier price rules attached yet, you can leave the checkbox clicked). Hit Safe when finished.
+Select "Mass Update Tier Prices". Add and configure as many tier price rules as needed. Make sure to uncheck the checkbox, if you do not wish to replace already existing tier price rules of the products. If the products do not have tier price rules attached yet, you can keep the checkbox checked. Hit "Save" when finished.
 
 ![Mass Update Tier Prices Extension]({{ "images/mass-update-tier-prices-m2/configure-rules-form.jpg" }} "Mass Update Tier Prices Extension")
 
