@@ -16,6 +16,9 @@ topnav_dropdowns:
           url: /tier-prices-for-configurable-products-m1.html
         - title: ConfigurableTierPrices (Magento 2)
           url: /tier-prices-for-configurable-products-m2.html
+        - title: MassUpdateTierPrices (Magento 2)
+          url: /mass-update-tier-prices-m2.html
+          output: web
 #        - title: ProductBadges (Magento 1)
 #          url: /product-badges-m1.html
 #        - title: BankIntegration
