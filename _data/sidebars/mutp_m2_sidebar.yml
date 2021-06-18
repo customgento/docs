@@ -11,6 +11,9 @@ entries:
     - title: Description
       url: "#description"
       output: web
+    - title: Usage Instructions
+      url: "#usage-instructions"
+      output: web
     - title: Requirements
       url: "#requirements"
       output: web
