@@ -75,7 +75,8 @@ Conveniently, the extension is enabled by default. No configurations needed.
 ## Troubleshooting - I installed the extension, but it does not work
 1. Do you use the latest version of the extension?
 2. Do you use Magento >= 2.4?
-7. Make sure that your tier prices are lower than the normal prices. That is the way they are supposed to be used.
+3. Make sure that your tier prices are lower than the normal prices. That is the way they are supposed to be used.
+4. Make sure that `cron_consumers_runner` is configured correctly. This can be checked [here](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html). Additionally configure the consumers behavior specified in [here](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-consumers.html) with the `--consumers-wait-for-messages` set to 0.
 
 ## Uninstallation
 The uninstallation procedure depends on your setup:
