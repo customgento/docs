@@ -10,3 +10,4 @@ https://docs.customgento.com
 - Otherwise run `bundle install` instead (update would be recommended though).
 4. Build the site with `bundle exec jekyll serve`
 5. The site should now run locally at https://localhost:4000/.
+6. Test
