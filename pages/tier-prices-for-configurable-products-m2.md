@@ -45,6 +45,7 @@ Given your simple products, which are assigned to configurable products, are als
 - magento/module-backend `~101.0||~102.0`
 - magento/module-catalog `~103.0||~104.0`
 - magento/module-checkout `~100.3`
+- magento/module-config: ~101.1|~101.2
 - magento/module-configurable-product `~100.3`
 - magento/module-customer: `~102.0||~103.0`
 - magento/module-eav `~102.0`
@@ -75,6 +76,9 @@ If you are using composer (you should!) and downloaded the extension from the Ma
 7. `bin/magento cache:flush`
 
 ## Configuration
+To be able to use the features of this module, you need a configurable product with several child products. For each child product, you can now define (different) tier prices for specific quantities. Magento by default would only check the quantities of each child product individually and calculate the final price for each child product separately based on the tier price settings of this specific child. 
+With this module, the quantities of all child products in the cart are summed up and you can decide, which of all fitting tier prices shall be used for the calculation.
+
 You find the settings under Stores > Configuration > Sales > Sales > Tier Prices For Configurable Products.
 You can enable the extension there and choose the tier price calculation type:
 
