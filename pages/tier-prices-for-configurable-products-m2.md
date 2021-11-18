@@ -116,7 +116,7 @@ will not be summed up anymore between different child products.
 4. Make sure that the extension is **not** disabled under Stores > Configuration > Sales > Sales > Tier Prices For Configurable Products.
 5. Make sure that the configurable product is **not** in one of the disabled categories.
 6. Make sure that the extension is **not** disabled in the respective configurable product.
-7. Make sure that you defined tier prices for the child products and that are lower than the normal prices. That is the way they are supposed to be used.
+7. Make sure that you defined tier prices for the child products and that they are lower than the normal prices. That is the way they are supposed to be used.
 
 ## Uninstallation
 The uninstallation procedure depends on your setup:
