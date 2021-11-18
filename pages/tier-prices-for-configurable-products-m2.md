@@ -46,7 +46,7 @@ Given your simple products, which are assigned to configurable products, are als
 - magento/module-backend `~101.0||~102.0`
 - magento/module-catalog `~103.0||~104.0`
 - magento/module-checkout `~100.3`
-- magento/module-config: ~101.1||~101.2
+- magento/module-config: `~101.1||~101.2`
 - magento/module-configurable-product `~100.3`
 - magento/module-customer: `~102.0||~103.0`
 - magento/module-eav `~102.0`
