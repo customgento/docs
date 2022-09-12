@@ -41,12 +41,12 @@ In this case, you get the green ones for 18 USD each and the orange ones for 16 
 Given your simple products, which are assigned to configurable products, are also visible in the catalog individually: If the customer adds such simple products to the cart plus their respective configurable counterparts, both quantities will be combined and respected for the tier price calculation. 
 
 ## Requirements
-- PHP `~7.2.0||~7.3.0||~7.4.0`
+- PHP `~7.3.0||~7.4.0||~8.1.0`
 - magento/framework `~102.0.0||~103.0.0`
 - magento/module-backend `~101.0||~102.0`
 - magento/module-catalog `~103.0||~104.0`
 - magento/module-checkout `~100.3`
-- magento/module-config: `~101.1||~101.2`
+- magento/module-config: `~101.1`
 - magento/module-configurable-product `~100.3`
 - magento/module-customer: `~102.0||~103.0`
 - magento/module-eav `~102.0`
@@ -139,4 +139,4 @@ If you have any issues with this extension, feel free to [contact us](https://ww
 [CustomGento Commercial Software Licence](https://www.customgento.com/license){:target="_blank"}
 
 ## Copyright
-&copy; 2018-2021 CustomGento GmbH
+&copy; 2018 - present CustomGento GmbH
