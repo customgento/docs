@@ -35,7 +35,7 @@ After the updates have been processed, go back to your product overview, open on
 ![Tier Prices Applied To Product]({{ "images/mass-update-tier-prices-m2/check-product.jpg" }} "Tier Prices Applied To Product")
 
 ## Requirements
-- PHP `~7.3.0||~7.4.0`
+- PHP `~7.3.0||~7.4.0||~8.1.0`
 - magento/framework `~103.0.0`
 - magento/module-asynchronous-operations `~100.4`
 - magento/module-authorization `~100.4`
@@ -99,4 +99,4 @@ If you have any issues with this extension, feel free to [contact us](https://ww
 [CustomGento Commercial Software Licence](https://www.customgento.com/license){:target="_blank"}
 
 ## Copyright
-&copy; 2021 CustomGento GmbH
+&copy; 2021 - present CustomGento GmbH
