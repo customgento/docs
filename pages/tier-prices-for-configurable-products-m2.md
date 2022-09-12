@@ -7,7 +7,8 @@ toc: false
 ---
 
 ## Description
-This extension for Magento 2 changes the way Magento calculates tier prices of configurable products. You can add different variations of a configurable product to the cart and you will receive the tier price for the total quantity of all variations in the cart.
+This extension for Magento 2 changes the way Magento calculates tier prices of configurable products.
+To be able to use the features of this module, you need a configurable product with several child products. For each child product, you can now define (different) tier prices for specific quantities. Magento by default would only check the quantities of each child product individually and calculate the final price for each child product separately based on the tier price settings of this specific child. With this module, the quantities of all child products in the cart are summed up and you can decide, which of all fitting tier prices shall be used for the calculation.
 
 ### Example
 There is a configurable product "Awesome T-Shirt" and there are two corresponding variations "green" and "orange".
@@ -45,6 +46,7 @@ Given your simple products, which are assigned to configurable products, are als
 - magento/module-backend `~101.0||~102.0`
 - magento/module-catalog `~103.0||~104.0`
 - magento/module-checkout `~100.3`
+- magento/module-config: `~101.1||~101.2`
 - magento/module-configurable-product `~100.3`
 - magento/module-customer: `~102.0||~103.0`
 - magento/module-eav `~102.0`
@@ -114,7 +116,7 @@ will not be summed up anymore between different child products.
 4. Make sure that the extension is **not** disabled under Stores > Configuration > Sales > Sales > Tier Prices For Configurable Products.
 5. Make sure that the configurable product is **not** in one of the disabled categories.
 6. Make sure that the extension is **not** disabled in the respective configurable product.
-7. Make sure that your tier prices are lower than the normal prices. That is the way they are supposed to be used.
+7. Make sure that you defined tier prices for the child products and that they are lower than the normal prices. That is the way they are supposed to be used.
 
 ## Uninstallation
 The uninstallation procedure depends on your setup:
