@@ -24,7 +24,9 @@ Select "Mass Update Tier Prices". Add and configure as many tier prices as neede
 
 ![Configure The Tier Price Rules]({{ "images/mass-update-tier-prices-m2/configure-rules.jpg" }} "Configure The Tier Price Rules")
 
-You will now be notified, that the tier price changes are scheduled for update and added to the queue. They get processed via the cronjob, which may take a few minutes, depending on your cronjob settings. You need to make sure, that your cronjob is running correctly. You can check the status of the updates under System > Action Logs > Bulk Actions.
+You will now be notified, that the tier price changes are scheduled for update and added to the queue. They get processed via the cronjob, which may take a few minutes, depending on your cronjob settings. You need to make sure, that your cronjob is running correctly. You can check the status of the updates under System > Action Logs > Bulk Actions. 
+
+If you don't run cronjobs, e.g. in a local devolpment environment, see [Configuration - Running Mass Updates without Cronjob](#running-mass-updates-without-cronjob).
 
 ![Queue Notification]({{ "images/mass-update-tier-prices-m2/queue.jpg" }} "Queue Notification")
 
@@ -71,6 +73,9 @@ If you are using composer (you should!) and downloaded the extension from the Ma
 
 ## Configuration
 Conveniently, the extension is enabled by default. No configurations needed.
+
+### Running Mass Updates without Cronjob
+The module adds the mass update to the queue to be processed via the cronjob. If you don't have your cronjob running, you can use the command `bin/magento queue:consumers:start customgento.massupdate.tierprices` to start the consumer manually.
 
 ## Troubleshooting - I installed the extension, but it does not work
 1. Do you use the latest version of the extension?
