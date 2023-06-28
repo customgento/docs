@@ -42,7 +42,7 @@ After the updates have been processed, go back to your product overview, open on
 - magento/module-asynchronous-operations `~100.4`
 - magento/module-authorization `~100.4`
 - magento/module-backend `~102.0`
-- magento/module-catalog `~104.0`
+- magento/module-catalog `^104.0.2`
 - magento/module-customer: `~103.0`
 - magento/module-directory `~100.4`
 - magento/module-store `~101.0`
