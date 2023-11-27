@@ -14,7 +14,7 @@ entries:
       - title: MassUpdateTierPrices
         url: /mass-update-tier-prices-m2.html
         output: web
-      - title: Child Product Data
+      - title: ChildProductData
         url: /child_product_data_module.html
         output: web
   - title: Extensions (Magento 1)
