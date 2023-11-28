@@ -24,7 +24,7 @@ On a configurable product page, you usually only see the attribute data of the c
 4. **Developer-Friendly Architecture:** For developers, Child Product Data offers an easily integrable solution with well-documented code. It follows the Magento 2 coding standards and best practices.
 
 ## Usage Instructions
-This module is built by default for a clean Hyva Theme. 
+Child Product Data is built by default for a clean Hyv&auml; Theme. 
 If you're using such a theme without any adaptions to the product page, you do not need to configure anything at all. 
 It will work directly out of the box. 
 As soon as you have a different HTML structure on your product page, you simply need to fill in the fitting identifiers under `Store => Config => Catalog => Catalog => Child Product Data`.
