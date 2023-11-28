@@ -34,7 +34,7 @@ To find out which identifiers you need to use, you can simply inspect the HTML o
 
 After entering the correct identifiers, please save the configuration and clear the cache. From now on, the extension will work as expected and show for example the adapted product name and the SKU as son as you choose a different child product.
 
-![Output]({{ "images/child-product-data/child-product-data-output.png" }} "Output")
+![Output]({{ "images/child-product-data/child-product-data-output.png" }} "Product page with changed child data (title, SKU)")
 
 ## Requirements
 - hyva-themes/magento2-theme-module: `~1.1`
