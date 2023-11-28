@@ -8,14 +8,14 @@ entries:
   - title: Extensions (Magento 2)
     output: web
     folderitems:
+      - title: ChildProductData
+        url: /child_product_data_module.html
+        output: web
       - title: ConfigurableTierPrices
         url: /tier-prices-for-configurable-products-m2.html
         output: web
       - title: MassUpdateTierPrices
         url: /mass-update-tier-prices-m2.html
-        output: web
-      - title: ChildProductData
-        url: /child_product_data_module.html
         output: web
   - title: Extensions (Magento 1)
     output: web
