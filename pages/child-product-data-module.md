@@ -27,7 +27,7 @@ On a configurable product page, you usually only see the attribute data of the c
 This module is built by default for a clean Hyva Theme. 
 If you're using such a theme without any adaptions to the product page, you do not need to configure anything at all. 
 It will work directly out of the box. 
-As soon as you have a different HTML structure on your product page, you simply need to fill in the fitting identifiers under `Store => Config => Catalog => Catalog => Child Product Data`.
+As soon as you have a different HTML structure on your product page, you simply need to fill in the fitting identifiers under Store > Config > Catalog > Catalog > Child Product Data.  
 To find out which identifiers you need to use, you can simply inspect the HTML of your product page and look for the fitting elements.
 
 ![Settings configuration]({{ "images/child-product-data/child-product-data-settings-fields.png" }} "Settings configuration")
