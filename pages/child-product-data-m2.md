@@ -37,7 +37,6 @@ After entering the correct identifiers, please save the configuration and clear 
 ![Output]({{ "images/child-product-data/child-product-data-output.png" }} "Product page with changed child data (title, SKU)")
 
 ## Requirements
-- hyva-themes/magento2-theme-module: `~1.1`
 - magento/framework: `~102.0||~103.0`
 - magento/module-catalog: `~103.0||~104.0`
 - magento/module-configurable-product: `~100.4`
