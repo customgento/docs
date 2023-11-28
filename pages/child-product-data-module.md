@@ -21,7 +21,7 @@ On a configurable product page, you usually only see the attribute data of the c
    - "More Information" Block
 2. **Seamless Hyv&auml; Compatibility:** The Enhanced Child Product Data Viewer Module is fully compatible with the Hyv&auml; theme, ensuring a smooth integration and an aesthetically pleasing presentation. Your online store can now leverage the power of Hyv&auml;'s modern design and user-friendly interface while providing enhanced product information.
 3. **Universal Theme Support:** The extension has been carefully crafted to be compatible with a wide range of themes. Whether you're using the default Magento Luma theme or any other custom theme, the Child Product Data Viewer will flawlessly adapt, offering consistent functionality across your store. You only need to enter the fitting identifiers in the system configuration, and the module will do the rest.
-4. **Developer-Friendly Architecture:** For developers, the Child Product Data Module offers an easily integrable solution with well-documented code. It allows for smooth implementation, ensuring that your store's performance remains top-notch.
+4. **Developer-Friendly Architecture:** For developers, the module offers an easily integrable solution with well-documented code. It allows for smooth implementation, ensuring that your store's performance remains top-notch.
 
 ## Usage Instructions
 This module is built by default for a clean Hyva Theme. 
