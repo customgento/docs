@@ -15,7 +15,7 @@ topnav_dropdowns:
         - title: ConfigurableTierPrices (Magento 1)
           url: /tier-prices-for-configurable-products-m1.html
         - title: ChildProductData (Magento 2)
-          url: /child_product_data_module.html
+          url: /child-product-data-m2.html
           output: web
         - title: ConfigurableTierPrices (Magento 2)
           url: /tier-prices-for-configurable-products-m2.html

@@ -1,14 +1,14 @@
 ---
-title: Child Product Data module
-permalink: child_product_data_module.html
-summary: "The Child Product Data Viewer Module is a powerful extension for Magento, designed to enhance the user experience and provide customers with detailed information about products. With this module installed, customers can directly access the data of child products associated to a configurable product."
+title: Child Product Data (Magento 2)
+permalink: child-product-data-m2.html
+summary: "The extension Child Product Data is a powerful extension for Magento, designed to enhance the user experience and provide customers with detailed information about products. With this module installed, customers can directly access the data of child products associated to a configurable product."
 sidebar: cpd_m2_sidebar
 toc: false
 ---
 
 ## Description
 
-On a configurable product page, you usually only see the attribute data of the configurable product itself. This module allows you to display the data of the child products on this page and the values are dynamically changed as soon as you choose a different child product. This way, customers can easily compare the data of the child products and make a well-informed decision.
+On a configurable product page, you usually only see the attribute data of the configurable product itself. This extension allows you to display the data of the child products on this page and the values are dynamically changed as soon as you choose a different child product. This way, customers can easily compare the data of the child products and make a well-informed decision.
 
 ### Key Features:
 
@@ -19,9 +19,9 @@ On a configurable product page, you usually only see the attribute data of the c
    - Short Description
    - Description
    - "More Information" Block
-2. **Seamless Hyva Compatibility:** The Enhanced Child Product Data Viewer Module is fully compatible with the Hyva theme, ensuring a smooth integration and an aesthetically pleasing presentation. Your online store can now leverage the power of Hyva's modern design and user-friendly interface while providing enhanced product information.
-3. **Universal Theme Support:** This module has been carefully crafted to be compatible with a wide range of themes. Whether you're using the default Magento theme or any other custom theme, the Child Product Data Viewer will flawlessly adapt, offering consistent functionality across your store. You only need to enter the fitting identifiers in the system configuration, and the module will do the rest.
-4. **Developer-Friendly Architecture:** For developers, the Child Product Data Module offers an easily integrable solution with well-documented code. It allows for smooth implementation, ensuring that your store's performance remains top-notch.
+2. **Seamless Hyva Compatibility:** The Child Product Data extension is fully compatible with the Hyva theme, ensuring a smooth integration and an aesthetically pleasing presentation. Your online store can now leverage the power of Hyva's modern design and user-friendly interface while providing enhanced product information.
+3. **Universal Theme Support:** This module has been carefully crafted to be compatible with a wide range of themes. Whether you're using the default Magento theme or any other custom theme, Child Product Data will flawlessly adapt, offering consistent functionality across your store. You only need to enter the fitting identifiers in the system configuration, and the module will do the rest.
+4. **Developer-Friendly Architecture:** For developers, Child Product Data offers an easily integrable solution with well-documented code. It allows for smooth implementation, ensuring that your store's performance remains top-notch.
 
 ## Usage Instructions
 This module is built by default for a clean Hyva Theme. 
@@ -32,7 +32,7 @@ To find out which identifiers you need to use, you can simply inspect the HTML o
 
 ![Settings configuration]({{ "images/child-product-data/child-product-data-settings-fields.png" }} "Settings configuration")
 
-After entering the correct identifiers, please save the configuration and clear the cache. From now on, the module will work as expected and show for example the adapted product name and the SKU as son as you choose a different child product.
+After entering the correct identifiers, please save the configuration and clear the cache. From now on, the extension will work as expected and show for example the adapted product name and the SKU as son as you choose a different child product.
 
 ![Output]({{ "images/child-product-data/child-product-data-output.png" }} "Output")
 

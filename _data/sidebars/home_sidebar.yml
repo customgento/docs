@@ -9,7 +9,7 @@ entries:
     output: web
     folderitems:
       - title: ChildProductData
-        url: /child_product_data_module.html
+        url: /child-product-data-m2.html
         output: web
       - title: ConfigurableTierPrices
         url: /tier-prices-for-configurable-products-m2.html
