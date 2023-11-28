@@ -2,7 +2,7 @@
 title: Child Product Data module
 permalink: child_product_data_module.html
 summary: "The Child Product Data Viewer Module is a powerful extension for Magento, designed to enhance the user experience and provide customers with detailed information about products. With this module installed, customers can directly access the data of child products associated to a configurable product."
-sidebar: home_sidebar
+sidebar: cpd_m2_sidebar
 toc: false
 ---
 
