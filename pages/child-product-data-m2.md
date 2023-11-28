@@ -21,7 +21,7 @@ On a configurable product page, you usually only see the attribute data of the c
    - "More Information" Block
 2. **Seamless Hyva Compatibility:** The extension is fully compatible with the Hyva theme, ensuring a smooth integration and an aesthetically pleasing presentation. Your online store can now leverage the power of Hyva's modern design and user-friendly interface while providing enhanced product information.
 3. **Universal Theme Support:** This module has been carefully crafted to be compatible with a wide range of themes. Whether you're using the default Magento theme or any other custom theme, Child Product Data will flawlessly adapt, offering consistent functionality across your store. You only need to enter the fitting identifiers in the system configuration, and the module will do the rest.
-4. **Developer-Friendly Architecture:** For developers, Child Product Data offers an easily integrable solution with well-documented code. It allows for smooth implementation, ensuring that your store's performance remains top-notch.
+4. **Developer-Friendly Architecture:** For developers, Child Product Data offers an easily integrable solution with well-documented code. It follows the Magento 2 coding standards and best practices.
 
 ## Usage Instructions
 This module is built by default for a clean Hyva Theme. 
