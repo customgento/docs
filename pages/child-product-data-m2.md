@@ -19,20 +19,20 @@ On a configurable product page, you usually only see the attribute data of the c
    - Short Description
    - Description
    - "More Information" Block
-2. **Seamless Hyva Compatibility:** The extension is fully compatible with the Hyva theme, ensuring a smooth integration and an aesthetically pleasing presentation. Your online store can now leverage the power of Hyva's modern design and user-friendly interface while providing enhanced product information.
-3. **Universal Theme Support:** This module has been carefully crafted to be compatible with a wide range of themes. Whether you're using the default Magento theme or any other custom theme, Child Product Data will flawlessly adapt, offering consistent functionality across your store. You only need to enter the fitting identifiers in the system configuration, and the module will do the rest.
+2. **Seamless Hyv&auml; Compatibility:** The extension is fully compatible with the Hyv&auml; theme, ensuring a smooth integration and an aesthetically pleasing presentation. Your online store can now leverage the power of Hyv&auml; modern design and user-friendly interface while providing enhanced product information.
+3. **Universal Theme Support:** The extension has been carefully crafted to be compatible with a wide range of themes. Whether you're using the default Magento Luma theme or any other custom theme, Child Product Data will flawlessly adapt, offering consistent functionality across your store. You only need to enter the fitting identifiers in the system configuration, and the module will do the rest.
 4. **Developer-Friendly Architecture:** For developers, Child Product Data offers an easily integrable solution with well-documented code. It follows the Magento 2 coding standards and best practices.
 
 ## Usage Instructions
 Child Product Data is by default built for a clean Hyv&auml; Theme. 
 If you're using such a theme without any adaptions to the product page, you do not need to configure anything at all. 
 It will work directly out of the box. 
-As soon as you have a different HTML structure on your product page, you simply need to fill in the fitting identifiers under `Store => Config => Catalog => Catalog => Child Product Data`.
+As soon as you have a different HTML structure on your product page, you simply need to fill in the fitting identifiers under Store > Config > Catalog > Catalog > Child Product Data.  
 To find out which identifiers you need to use, you can simply inspect the HTML of your product page and look for the fitting elements.
 
 ![Settings configuration]({{ "images/child-product-data/child-product-data-settings-fields.png" }} "Settings configuration")
 
-After entering the correct identifiers, please save the configuration and clear the cache. From now on, the extension will work as expected and show for example the adapted product name and the SKU as son as you choose a different child product.
+After entering the correct identifiers, please save the configuration and clear the cache. From now on, as soon as you choose a child product, the module will show the child data for the identifiers you configured, for example the adapted product name or the SKU.
 
 ![Output]({{ "images/child-product-data/child-product-data-output.png" }} "Product page with changed child data (title, SKU)")
 
