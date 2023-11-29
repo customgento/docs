@@ -33,6 +33,7 @@ To find out which identifiers you need to use, you can simply inspect the HTML o
 ![Settings configuration]({{ "images/child-product-data/child-product-data-settings-fields.png" }} "Settings configuration")
 
 After entering the correct identifiers, please save the configuration and clear the cache. From now on, as soon as you choose a child product, the module will show the child data for the identifiers you configured, for example the adapted product name or the SKU.
+If you do not want to change the data for a specific attribute, you can simply leave the field empty.
 
 ![Output]({{ "images/child-product-data/child-product-data-output.png" }} "Product page with changed child data (title, SKU)")
 
