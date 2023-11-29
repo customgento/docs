@@ -12,7 +12,7 @@ On a configurable product page, you usually only see the attribute data of the c
 
 ### Key Features:
 
-1. **Dynamic Change of Product Data:** As soon as a customer chooses an option of a configurable product, the values of the following attributes are adapted::
+1. **Dynamic Change of Product Data:** As soon as a customer chooses an option of a configurable product, the values of the following attributes are adapted:
    - Product Name
    - Breadcrumbs
    - SKU
