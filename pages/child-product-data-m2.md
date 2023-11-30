@@ -14,11 +14,12 @@ On a configurable product page, you usually only see the attribute data of the c
 
 1. **Dynamic Change of Product Data:** As soon as a customer chooses an option of a configurable product, the values of the following attributes are adapted:
    - Product Name
-   - Breadcrumbs
    - SKU
    - Short Description
    - Description
    - "More Information" Block
+   - Related Products
+   - Upsell Products
 2. **Seamless Hyv&auml; Compatibility:** The extension is fully compatible with the Hyv&auml; theme, ensuring a smooth integration and an aesthetically pleasing presentation. Your online store can now leverage the power of Hyv&auml; modern design and user-friendly interface while providing enhanced product information.
 3. **Universal Theme Support:** The extension has been carefully crafted to be compatible with a wide range of themes. Whether you're using the default Magento Luma theme or any other custom theme, Child Product Data will flawlessly adapt, offering consistent functionality across your store. You only need to enter the fitting identifiers in the system configuration, and the module will do the rest.
 4. **Developer-Friendly Architecture:** For developers, Child Product Data offers an easily integrable solution with well-documented code. It follows the Magento 2 coding standards and best practices.
