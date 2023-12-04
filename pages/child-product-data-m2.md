@@ -20,7 +20,7 @@ On a configurable product page, you usually only see the attribute data of the c
    - "More Information" Block
    - Related Products
    - Upsell Products
-2. **Seamless Hyv&auml; Compatibility:** The extension is fully compatible with the Hyv&auml; theme, ensuring a smooth integration and an aesthetically pleasing presentation. Your online store can now leverage the power of Hyv&auml; modern design and user-friendly interface while providing enhanced product information.
+2. **Seamless Hyv&auml; Compatibility:** The extension is fully compatible with the Hyv&auml; theme, ensuring a smooth integration and an aesthetically pleasing presentation. Your online store can now leverage the power of Hyv&auml;'s modern design and user-friendly interface while providing enhanced product information.
 3. **Universal Hyv&auml; Theme Support:** The extension is not only compatible with the default Hyv&auml; theme. It works also with any Hyv&auml; child theme. You only need to enter the fitting identifiers in the system configuration, and the module will do the rest.
 4. **Developer-Friendly Architecture:** For developers, Child Product Data offers an easily integrable solution with well-documented code. It follows the Magento 2 coding standards and best practices.
 
