@@ -27,7 +27,7 @@ On a configurable product page, you usually only see the attribute data of the c
 ## Usage Instructions
 Child Product Data is by default built for a clean Hyv&auml; Theme. 
 If you're using Hyv&auml; or a child a theme without any adaptions to the product page, you do not need to configure anything at all. 
-It will work directly out of the box. The only exception are the related and upsell products. Here, we're still waiting for a Hyv&auml; update to make it work out of the box. Until then, please include the changes in https://gitlab.hyva.io/hyva-themes/magento2-default-theme/-/merge_requests/979/diffs in your custom theme.  
+It will work directly out of the box. The only exception are the related and upsell products. Here, we're still waiting for a Hyv&auml; update to make it work out of the box. Until then, please include the changes from [this Merge Request](https://gitlab.hyva.io/hyva-themes/magento2-default-theme/-/merge_requests/979/diffs){:target="_blank"} in your custom theme.  
 As soon as you have a different HTML structure on your product page, you simply need to fill in the fitting identifiers under Store > Config > Catalog > Catalog > Child Product Data.  
 Please mind, that a specific attribute could be included at several spots on the page. For example the name of the product is also included in the breadcrumbs. In this case, please enter each identifier in a new line. 
 To find out which identifiers you need to use, you can simply inspect the HTML of your product page and look for the fitting elements.
