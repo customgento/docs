@@ -49,8 +49,8 @@ If you do not want to change the data for a specific attribute, you can simply l
 - php: `~7.4.0||~8.1.0||~8.2.0`
 
 ## Compatibility
-- Magento >= `2.4`
 - Hyv&auml; Theme >= `1.0.0`
+- Magento >= `2.4`
 
 ## Installation Instructions
 The installation procedure highly depends on your setup. In any case, you should use a version control system like git and test the installation on a development system.
