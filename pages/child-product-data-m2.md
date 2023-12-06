@@ -40,7 +40,7 @@ If you do not want to change the data for a specific attribute, you can simply l
 ![Output]({{ "images/child-product-data/child-product-data-output.png" }} "Product page with changed child data (e.g. breadcrumbs, title, SKU)")
 
 ## Requirements
-- hyva-themes/magento2-theme-module: `~1.1`
+- hyva-themes/magento2-default-theme: `~1.0
 - magento/framework: `~102.0||~103.0`
 - magento/module-catalog: `~103.0||~104.0`
 - magento/module-configurable-product: `~100.4`
