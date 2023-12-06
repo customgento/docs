@@ -50,6 +50,7 @@ If you do not want to change the data for a specific attribute, you can simply l
 
 ## Compatibility
 - Magento >= `2.4`
+- Hyv&auml; Theme >= `1.0.0`
 
 ## Installation Instructions
 The installation procedure highly depends on your setup. In any case, you should use a version control system like git and test the installation on a development system.
