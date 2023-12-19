@@ -1,7 +1,7 @@
 ---
-title: Child Product Data for Hyv&auml; themes (Magento 2)
+title: Child Product Data for Magento 2
 permalink: child-product-data-m2.html
-summary: "The extension Child Product Data for Hyv&auml; themes is a powerful module for Magento, designed to enhance the user experience and provide customers with detailed information about products. With this module installed, customers can directly access the data of child products associated to a configurable product."
+summary: "The extension Child Product Data for Magento 2 is a powerful module for Magento, designed to enhance the user experience and provide customers with detailed information about products. With this module installed, customers can directly access the data of child products associated to a configurable product."
 sidebar: cpd_m2_sidebar
 toc: false
 ---
