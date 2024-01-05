@@ -1,7 +1,7 @@
 ---
 title: Child Product Data for Magento 2
 permalink: child-product-data-m2.html
-summary: "The extension Child Product Data for Magento 2 is a powerful module for Magento, designed to enhance the user experience and provide customers with detailed information about products. With this module installed, customers can directly access the data of child products associated to a configurable product."
+summary: "Child Product Data for Hyvä themes dynamically displays product data from child products, as soon as a variation is selected on a product detail page of a configurable product. This way, for example the name, SKU, description and product attributes are updated and the customer can see the data of the selected variation."
 sidebar: cpd_m2_sidebar
 toc: false
 ---
@@ -12,7 +12,7 @@ On a configurable product page, you usually only see the attribute data of the c
 
 ### Key Features:
 
-1. **Dynamic Change of Product Data:** As soon as a customer chooses an option of a configurable product, the values of the following attributes are adapted:
+1. **Dynamic Change of Product Data:** As soon as a customer chooses an option of a configurable product, the values of the following attributes are changed performantly via AJAX:
    - Product Name
    - SKU
    - Short Description
@@ -27,7 +27,7 @@ On a configurable product page, you usually only see the attribute data of the c
 ## Usage Instructions
 Child Product Data is by default built for a clean Hyv&auml; Theme. 
 If you're using Hyv&auml; or a child theme without any adaptions to the product page, you do not need to configure anything at all. 
-It will work directly out of the box. The only exception are the related and upsell products. Here, we're still waiting for a Hyv&auml; update to make it work out of the box. Until then, please include the changes from [this Merge Request](https://gitlab.hyva.io/hyva-themes/magento2-default-theme/-/merge_requests/979/diffs){:target="_blank"} in your custom theme.  
+It will work directly out of the box. The only exception are the related and upsell products. Here it depends, which version of the default Hyv&auml; Theme you're using. If you're using version 1.3.5 or higher, it also works out of the box. For older versions, please include the changes from [this Merge Request](https://gitlab.hyva.io/hyva-themes/magento2-default-theme/-/merge_requests/979/diffs){:target="_blank"} in your custom theme.  
 As soon as you have a different HTML structure on your product page, you simply need to fill in the fitting identifiers under Store > Config > Catalog > Catalog > Child Product Data.  
 Please mind, that a specific attribute could be included at several spots on the page. For example the name of the product is also included in the breadcrumbs. In this case, please enter each identifier in a new line. 
 To find out which identifiers you need to use, you can simply inspect the HTML of your product page and look for the fitting elements.
