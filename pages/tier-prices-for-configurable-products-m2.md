@@ -8,7 +8,12 @@ toc: false
 
 ## Description
 This extension for Magento 2 changes the way Magento calculates tier prices of configurable products.
-To be able to use the features of this module, you need a configurable product with several child products. For each child product, you can now define (different) tier prices for specific quantities. Magento by default would only check the quantities of each child product individually and calculate the final price for each child product separately based on the tier price settings of this specific child. With this module, the quantities of all child products in the cart are summed up and you can decide, which of all fitting tier prices shall be used for the calculation.
+To be able to use the features of this module, you need a configurable product with several child products. 
+For each child product, you can now define (different) tier prices for specific quantities.
+Magento by default would only check the quantities of each child product individually and calculate the final price for each child product separately based on the tier price settings of this specific child. 
+With this module, the quantities of all child products in the cart are summed up and you can decide, 
+which of all fitting tier prices shall be used for the calculation. 
+**The module also works with the Adobe Commerce B2B quote feature.**
 
 ### Example
 There is a configurable product "Awesome T-Shirt" and there are two corresponding variations "green" and "orange".
@@ -54,7 +59,8 @@ Given your simple products, which are assigned to configurable products, are als
 - magento/module-store `~101.0`
 
 ## Compatibility
-- Magento >= 2.3
+- Magento Open Source >= 2.3
+- Adobe Commerce >= 2.3
 
 ## Installation Instructions
 The installation procedure highly depends on your setup. In any case, you should use a version control system like git and test the installation on a development system.
