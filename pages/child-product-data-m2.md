@@ -47,7 +47,7 @@ If you do not want to change the data for a specific attribute, you can simply l
 - magento/module-configurable-product: `~100.4`
 - magento/module-eav: `~102.0`
 - magento/module-store: `~101.0`
-- php: `~7.4.0||~8.1.0||~8.2.0`
+- php: `~7.4.0||~8.1.0||~8.2.0||~8.3.0`
 
 ## Compatibility
 - Hyv&auml; Theme >= `1.0.0`
