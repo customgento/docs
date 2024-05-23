@@ -37,7 +37,7 @@ After the updates have been processed, go back to your product overview, open on
 ![Tier Prices Applied To Product]({{ "images/mass-update-tier-prices-m2/check-product.jpg" }} "Tier Prices Applied To Product")
 
 ## Requirements
-- PHP `~7.3.0||~7.4.0||~8.1.0`
+- PHP `~7.3.0||~7.4.0||~8.1.0||~8.2.0||~8.3.0`
 - magento/framework `~103.0.0`
 - magento/module-asynchronous-operations `~100.4`
 - magento/module-authorization `~100.4`
