@@ -17,6 +17,9 @@ entries:
       - title: MassUpdateTierPrices
         url: /mass-update-tier-prices-m2.html
         output: web
+      - title: SchufaCreditReport
+        url: /schufa-credit-report-m2.html
+        output: web
   - title: Extensions (Magento 1)
     output: web
     folderitems:
