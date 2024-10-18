@@ -11,14 +11,14 @@ entries:
       - title: Child Product Data
         url: /child-product-data-m2.html
         output: web
-      - title: Tier Prices For Configurable Products
-        url: /tier-prices-for-configurable-products-m2.html
-        output: web
       - title: Mass Update Tier Prices
         url: /mass-update-tier-prices-m2.html
         output: web
       - title: SCHUFA Credit Report
         url: /schufa-credit-report-m2.html
+        output: web
+      - title: Tier Prices For Configurable Products
+        url: /tier-prices-for-configurable-products-m2.html
         output: web
   - title: Extensions (Magento 1)
     output: web
