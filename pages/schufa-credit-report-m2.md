@@ -121,4 +121,4 @@ If you have any issues with this extension, feel free to [contact us](https://ww
 
 ## Copyright
 
-&copy; 2018 - present CustomGento GmbH
+&copy; 2024 - present CustomGento GmbH
