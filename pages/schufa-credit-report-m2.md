@@ -15,11 +15,12 @@ explaining the reason for blocking the payment method, after that the payment me
 this data is saved in the user's cookie, so the customer can see the payment method if he/she clears the cookies.
 The module uses the SCHUFA API to get the score and the report. There are also some configuration options to define the
 score threshold and the payment methods to block.
-**The module also works with Hyva checkout.**
+
+**The module also works with Hyv&auml; Checkout.**
 
 ## Requirements
 
-- "ext-curl": `*`,
+- ext-curl: `*`,
 - magento/framework `^103.0`
 - magento/module-checkout `^100.4`
 - magento/module-payment `^100.4`
@@ -27,8 +28,8 @@ score threshold and the payment methods to block.
 
 ## Compatibility
 
-- Magento Open Source >= 2.4
-- Hyva Checkout >= 1.1.23
+- Magento Open Source / Adobe Commerce >= 2.4
+- Hyv&auml; Checkout >= 1.1.23
 
 ## Installation Instructions
 

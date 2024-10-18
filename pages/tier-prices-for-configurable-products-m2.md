@@ -59,8 +59,7 @@ Given your simple products, which are assigned to configurable products, are als
 - magento/module-store `~101.0`
 
 ## Compatibility
-- Magento Open Source >= 2.3
-- Adobe Commerce >= 2.3
+- Magento Open Source / Adobe Commerce >= 2.3
 
 ## Installation Instructions
 The installation procedure highly depends on your setup. In any case, you should use a version control system like git and test the installation on a development system.

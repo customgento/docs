@@ -49,7 +49,7 @@ After the updates have been processed, go back to your product overview, open on
 - magento/module-ui `~101.1`
 
 ## Compatibility
-- Magento >= 2.4
+- Magento Open Source / Adobe Commerce >= 2.4
 
 ## Installation Instructions
 The installation procedure highly depends on your setup. In any case, you should use a version control system like git and test the installation on a development system.
